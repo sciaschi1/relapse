@@ -1,0 +1,1530 @@
+﻿[2016.05.29-17.48.56:355][  0]Log file open, 05/29/16 13:48:56
+[2016.05.29-17.48.56:355][  0]LogInit:Display: Running engine for game: Relapse
+[2016.05.29-17.48.56:355][  0]LogInit:Display: RandInit(863431722) SRandInit(863431722).
+[2016.05.29-17.48.56:355][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.05.29-17.48.56:356][  0]LogStats: Stats thread started at 0.073979
+[2016.05.29-17.48.56:356][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.05.29-17.48.56:356][  0]LogInit: API Version: 2672455
+[2016.05.29-17.48.56:356][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.05.29-17.48.56:356][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.05.29-17.48.56:356][  0]LogInit: Build Configuration: Development
+[2016.05.29-17.48.56:356][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.05.29-17.48.56:356][  0]LogInit: Command line: -EpicPortal 
+[2016.05.29-17.48.56:356][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.05.29-17.48.56:356][  0]LogInit: Rocket: 1
+[2016.05.29-17.48.56:373][  0]LogInit: Using libcurl 7.41.0
+[2016.05.29-17.48.56:373][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.29-17.48.56:373][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.29-17.48.56:373][  0]LogInit:  - other features:
+[2016.05.29-17.48.56:373][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.29-17.48.56:373][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.29-17.48.56:373][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.29-17.48.56:373][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.29-17.48.56:373][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.29-17.48.56:373][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.29-17.48.56:373][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.29-17.48.56:373][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.29-17.48.56:373][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.29-17.48.56:373][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.29-17.48.56:387][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.29-17.48.56:401][  0]LogInit: Object subsystem initialized
+[2016.05.29-17.48.56:403][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.29-17.48.56:403][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.29-17.48.56:414][  0]LogInit: Computer: KAITLYN-PC
+[2016.05.29-17.48.56:414][  0]LogInit: User: Kaitlyn
+[2016.05.29-17.48.56:414][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.05.29-17.48.56:414][  0]LogInit: High frequency timer resolution =3.215439 MHz
+[2016.05.29-17.48.56:414][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.05.29-17.48.56:414][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.29-17.48.56:414][  0]LogMemory: Process Physical Memory: 53.91 MB used, 53.91 MB peak
+[2016.05.29-17.48.56:414][  0]LogMemory: Process Virtual Memory: 58.50 MB used, 58.50 MB peak
+[2016.05.29-17.48.56:414][  0]LogMemory: Physical Memory: 5452.45 MB used, 8087.19 MB total
+[2016.05.29-17.48.56:414][  0]LogMemory: Virtual Memory: 340.45 MB used, 8388608.00 MB total
+[2016.05.29-17.48.56:619][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.29-17.48.57:750][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 645 (Feature Level 11_0)
+[2016.05.29-17.48.57:750][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2016.05.29-17.48.57:783][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 645 (Feature Level 11_0)
+[2016.05.29-17.48.57:783][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 0 output[s]
+[2016.05.29-17.48.57:783][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.29-17.48.57:797][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.29-17.48.57:797][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2016.05.29-17.48.57:810][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.29-17.48.57:826][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Intermediate/Shaders/WorkingDirectory/11868/).
+[2016.05.29-17.48.57:826][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Intermediate/Shaders/tmp/4AEEAE4944044FFBBC8C6498CD66AF21/'.
+[2016.05.29-17.48.57:826][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.29-17.49.00:281][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.29-17.49.00:291][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.29-17.49.00:301][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.29-17.49.00:310][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.29-17.49.00:318][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.29-17.49.00:325][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.29-17.49.00:332][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.29-17.49.00:338][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.29-17.49.00:345][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.29-17.49.00:349][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.29-17.49.00:355][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.29-17.49.00:361][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.29-17.49.00:362][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.29-17.49.00:383][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.29-17.49.00:389][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.29-17.49.00:394][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.29-17.49.00:400][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.29-17.49.00:400][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.29-17.49.00:548][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.29-17.49.02:614][  0]LogDerivedDataCache: Loaded boot cache 2.07s 41MB C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.05.29-17.49.02:614][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.05.29-17.49.02:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.29-17.49.02:614][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.29-17.49.02:615][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.29-17.49.02:615][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.29-17.49.02:834][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.29-17.49.02:867][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kaitlyn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.29-17.49.05:372][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.29-17.49.05:373][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.29-17.49.05:458][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.29-17.49.05:458][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.29-17.49.08:567][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.29-17.49.24:873][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.29-17.49.25:356][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2016.05.29-17.49.26:417][  0]SourceControl: Info Source control is disabled
+[2016.05.29-17.49.26:418][  0]SourceControl: Info Source control is disabled
+[2016.05.29-17.49.26:439][  0]SourceControl: Info Source control is disabled
+[2016.05.29-17.49.26:459][  0]SourceControl: Info Source control is disabled
+[2016.05.29-17.49.27:318][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.29-17.49.27:496][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.05.29-17.49.27:496][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2016.05.29-17.49.27:920][  0]LogEngine: Initializing Engine...
+[2016.05.29-17.49.27:926][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.05.29-17.49.27:941][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.05.29-17.49.28:763][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.29-17.49.28:768][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.49.28:794][  0]LogInit: FAudioDevice initialized.
+[2016.05.29-17.49.28:839][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.05.29-17.49.28:842][  0]LogInit: Texture streaming: Enabled
+[2016.05.29-17.49.28:853][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.29-17.49.28:853][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.05.29-17.49.28:853][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 81165e594baac42afe9f2b865a2ff1ad|abd8b3a12bc040f2a254594f876f7354|be1c684a-7263-42c4-b8f9-70bec544cc39
+[2016.05.29-17.49.28:853][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.29-17.49.29:551][  0]LogInit: Transaction tracking system initialized
+[2016.05.29-17.49.29:639][  0]BlueprintLog: New page: Editor Load
+[2016.05.29-17.49.30:141][  0]LocalizationService: Info Localization service is disabled
+[2016.05.29-17.49.30:510][  0]LogConsoleResponse:Display: 
+[2016.05.29-17.49.30:991][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.29-17.49.31:734][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/' took 0.02s
+[2016.05.29-17.49.31:734][  0]SourceControl: Info Source control is disabled
+[2016.05.29-17.49.31:735][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.29-17.49.31:755][  0]LightingResults: New page: Lighting Build
+[2016.05.29-17.49.31:775][  0]MapCheck: New page: Map Check
+[2016.05.29-17.49.31:775][  0]LightingResults: New page: Lighting Build
+[2016.05.29-17.49.31:807][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024E42160
+[2016.05.29-17.49.34:060][  0]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2016.05.29-17.49.34:711][  0]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2016.05.29-17.49.34:892][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.29-17.49.35:005][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.29-17.49.35:031][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.29-17.49.35:193][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:193][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor_14.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:193][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:194][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:194][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Chair.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:194][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Chair_15.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:194][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:194][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor_14.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:194][  0]MapCheck:Warning: Warning AudioComponent0 AudioComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Starter_Background_Cue_2.AudioComponent0 : Externally referenced 
+[2016.05.29-17.49.35:194][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Chair.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:195][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Chair_15.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:195][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:195][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Table.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.49.35:195][  0]MapCheck: Info Map check complete: 0 Error(s), 13 Warning(s), took 164.059ms to complete.
+[2016.05.29-17.49.35:640][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.905
+[2016.05.29-17.49.36:393][  0]LogCollectionManager: Loaded 0 collections in 0.004212 seconds
+[2016.05.29-17.49.36:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Collections/' took 0.01s
+[2016.05.29-17.49.36:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Developers/Kaitlyn/Collections/' took 0.04s
+[2016.05.29-17.49.36:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Collections/' took 0.03s
+[2016.05.29-17.49.36:555][  0]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 1867 classes and 333 folders.
+[2016.05.29-17.49.36:675][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.29-17.49.36:920][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.05.29-17.49.39:242][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.29-17.49.39:425][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.29-17.49.40:072][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.29-17.49.40:107][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.29-17.49.40:164][  0]LogLoad: Full Startup: 45.17 seconds (BP compile: 0.26 seconds)
+[2016.05.29-17.49.41:417][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.29-17.49.42:642][  0]LogRenderer: Reallocating scene render targets to support 748x496 (Frame:2).
+[2016.05.29-17.50.01:034][ 15]LogAssetRegistry: Asset discovery search completed in 35.6872 seconds
+[2016.05.29-17.50.01:034][ 15]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.05.29-17.50.01:034][ 15]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.05.29-17.51.05:686][992]Cmd: MAP LOAD FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.29-17.51.05:704][992]LightingResults: New page: Lighting Build
+[2016.05.29-17.51.05:726][992]LoadErrors: New page: Loading map: Home.umap
+[2016.05.29-17.51.05:727][992]MapCheck: New page: Map Check
+[2016.05.29-17.51.05:727][992]LightingResults: New page: Lighting Build
+[2016.05.29-17.51.05:745][992]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120874C0
+[2016.05.29-17.51.06:407][992]LogAIModule: Creating AISystem for world Home
+[2016.05.29-17.51.06:453][992]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.29-17.51.06:492][992]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.29-17.51.06:571][992]MapCheck:Warning: Warning SM_DoorFrame_8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame_8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-17.51.06:572][992]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 79.327ms to complete.
+[2016.05.29-17.51.06:581][992]LogFileHelpers: Loading map 'Home' took 0.897
+[2016.05.29-17.52.38:084][381]Cmd: TRANSACTION UNDO
+[2016.05.29-17.52.38:084][381]LogEditorTransaction: Undo Edit Source Radius
+[2016.05.29-17.52.38:479][410]Cmd: TRANSACTION UNDO
+[2016.05.29-17.52.38:480][410]LogEditorTransaction: Undo Edit Source Length
+[2016.05.29-17.52.58:995][519]Cmd: DELETE
+[2016.05.29-17.52.58:995][519]Cmd: ACTOR DELETE
+[2016.05.29-17.52.59:031][519]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-17.52.59:052][519]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.05.29-17.55.12:119][986]Cmd: TRANSACTION UNDO
+[2016.05.29-17.55.12:119][986]LogEditorTransaction: Undo Move Actors
+[2016.05.29-17.55.12:135][986]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-17.55.16:011][251]Cmd: TRANSACTION UNDO
+[2016.05.29-17.55.16:011][251]LogEditorTransaction: Undo Move Actors
+[2016.05.29-17.55.16:027][251]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-17.56.27:203][811]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2016.05.29-17.57.46:028][980]Cmd: TRANSACTION UNDO
+[2016.05.29-17.57.46:028][980]LogEditorTransaction: Undo Edit Z
+[2016.05.29-18.00.37:167][250]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-18.01.16:925][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-18.01.17:085][854]LogSavePackage: Save=112.112526ms
+[2016.05.29-18.01.17:085][854]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/HomeA55327D84ADD96A19AEBE68662DFA7A6.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-18.01.17:089][854]LogSavePackage: Total save time: 119.069897ms
+[2016.05.29-18.01.17:089][854]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-18.01.17:116][854]LogFileHelpers: Saving map 'Home' took 9.191
+[2016.05.29-18.08.35:888][ 65]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-18.09.16:359][ 50]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.05.29-18.10.18:158][439]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.05.29-18.11.46:194][577]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.29-18.13.12:636][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame2)
+[2016.05.29-18.13.30:588][172]Cmd: TRANSACTION UNDO
+[2016.05.29-18.13.30:588][172]LogEditorTransaction: Undo Edit X
+[2016.05.29-18.13.30:606][172]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.29-18.14.06:546][733]Cmd: TRANSACTION UNDO
+[2016.05.29-18.14.06:546][733]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.14.06:565][733]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.29-18.14.07:855][797]Cmd: TRANSACTION UNDO
+[2016.05.29-18.14.07:855][797]LogEditorTransaction: Undo Edit Z
+[2016.05.29-18.14.07:876][797]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.29-18.14.09:146][882]Cmd: TRANSACTION UNDO
+[2016.05.29-18.14.09:146][882]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.14.09:164][882]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.29-18.14.10:087][941]Cmd: TRANSACTION UNDO
+[2016.05.29-18.14.10:087][941]LogEditorTransaction: Undo Edit Z
+[2016.05.29-18.14.10:107][941]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.29-18.16.49:618][545]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.05.29-18.19.08:565][407]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2016.05.29-18.19.16:062][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-18.19.16:225][789]LogSavePackage: Save=135.284164ms
+[2016.05.29-18.19.16:225][789]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home221C9B864CD1F81F85AB569258CB297A.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-18.19.16:228][789]LogSavePackage: Total save time: 139.663666ms
+[2016.05.29-18.19.16:228][789]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-18.19.16:255][789]LogFileHelpers: Saving map 'Home' took 2.300
+[2016.05.29-18.19.40:050][439]MapCheck: New page: Map Check
+[2016.05.29-18.19.40:077][439]Cmd: MAP REBUILD ALLVISIBLE
+[2016.05.29-18.19.40:077][439]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.05.29-18.19.40:209][439]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.05.29-18.19.40:209][439]LogStats:          STAT_HLOD_BuildClusters - 30.554 ms
+[2016.05.29-18.19.40:209][439]LightingResults: New page: Lighting Build - May 29, 2016, 10:19:40 AM
+[2016.05.29-18.19.47:427][439]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.05.29-18.19.47:427][439]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.05.29-18.19.47:427][439]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.05.29-18.19.47:427][439]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.05.29-18.19.47:427][439]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.05.29-18.19.47:427][439]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.05.29-18.19.47:804][439]LogEditorBuildUtils: Build time 0:00:07
+[2016.05.29-18.19.47:856][439]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2016.05.29-18.19.47:862][439]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2016.05.29-18.19.47:917][440]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_27, compiling. 
+[2016.05.29-18.19.47:938][440]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_27, compiling. 
+[2016.05.29-18.19.47:972][441]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.05.29-18.19.47:982][441]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.05.29-18.19.59:388][914]Job is a success!
+[2016.05.29-18.19.59:567][915]LightingResults:Error: Error PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.05.29-18.19.59:681][915]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.05.29-18.19.59:828][915]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.05.29-18.19.59:829][915]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.05.29-18.19.59:829][915]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.05.29-18.19.59:917][915]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.05.29-18.20.00:045][915]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.05.29-18.20.00:251][915]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.05.29-18.20.00:311][915]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.05.29-18.20.00:330][915]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.05.29-18.20.00:702][915]Lightmass on KAITLYN-PC: 6.81 sec total, 224 ms importing, 1 ms setup, 357 ms photons, 5.77 sec processing, 0 ms extra exporting [51/51 mappings]. Threads: 23.0 sec total, 13.9 sec processing.
+[2016.05.29-18.20.00:795][915]LogStaticLightingSystem: Illumination: 20.5 sec (761 ms encoding lightmaps)
+[2016.05.29-18.20.00:795][915]LogStaticLightingSystem: Lightmap texture memory:  1.7 MB (0.3 MB streaming, 1.3 MB non-streaming), 6 textures
+[2016.05.29-18.20.00:795][915]LogStaticLightingSystem: Shadowmap texture memory: 3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 3 textures
+[2016.05.29-18.20.01:453][916]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.05.29-18.20.01:453][916]MapCheck: New page: Home - May 29, 2016, 10:20:01 AM
+[2016.05.29-18.20.01:578][916]MapCheck:Warning: Warning SM_DoorFrame3 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame3.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-18.20.01:578][916]MapCheck:Warning: Warning SM_DoorFrame2 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame2.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-18.20.01:578][916]MapCheck:Warning: Warning SM_DoorFrame_8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame_8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-18.20.01:578][916]MapCheck: Info Map check complete: 0 Error(s), 3 Warning(s), took 124.754ms to complete.
+[2016.05.29-18.20.37:243][290]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2016.05.29-18.21.31:963][421]Cmd: TRANSACTION UNDO
+[2016.05.29-18.21.31:963][421]LogEditorTransaction: Undo Edit X
+[2016.05.29-18.21.31:977][421]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2016.05.29-18.25.29:467][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-18.25.29:667][303]LogSavePackage: Save=172.116470ms
+[2016.05.29-18.25.29:667][303]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home8DCDCAF94458494990022C95ABEFB158.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-18.25.29:670][303]LogSavePackage: Total save time: 177.557718ms
+[2016.05.29-18.25.29:670][303]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-18.25.29:696][303]LogFileHelpers: Saving map 'Home' took 2.837
+[2016.05.29-18.26.41:018][503]Cmd: EDIT COPY
+[2016.05.29-18.26.41:494][550]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.41:494][550]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.26.41:509][550]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.41:973][579]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.41:973][579]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.26.41:991][579]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.42:398][613]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.42:398][613]LogEditorTransaction: Undo Scale Actors
+[2016.05.29-18.26.42:413][613]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.42:853][646]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.42:853][646]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.26.42:868][646]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.43:226][675]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.43:226][675]LogEditorTransaction: Undo Scale Actors
+[2016.05.29-18.26.43:241][675]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.43:610][710]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.43:610][710]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.26.43:625][710]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.44:053][734]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.44:053][734]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.26.44:068][734]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.44:519][775]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.44:519][775]LogEditorTransaction: Undo Scale Actors
+[2016.05.29-18.26.44:534][775]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.45:021][816]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.45:021][816]LogEditorTransaction: Undo Scale Actors
+[2016.05.29-18.26.45:036][816]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-18.26.45:482][857]Cmd: TRANSACTION UNDO
+[2016.05.29-18.26.45:482][857]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.26.45:499][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.SM_DoorFrame3.StaticMeshComponent0) Component already registered.
+[2016.05.29-18.26.45:500][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2016.05.29-18.26.50:301][326]Cmd: EDIT PASTE
+[2016.05.29-18.29.12:346][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame5)
+[2016.05.29-18.30.13:269][583]Cmd: TRANSACTION UNDO
+[2016.05.29-18.30.13:269][583]LogEditorTransaction: Undo Scale Actors
+[2016.05.29-18.30.13:281][583]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2016.05.29-18.30.13:281][583]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2016.05.29-18.30.20:822][420]Cmd: TRANSACTION UNDO
+[2016.05.29-18.30.20:822][420]LogEditorTransaction: Undo Edit Y
+[2016.05.29-18.30.20:834][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2016.05.29-18.30.20:834][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2016.05.29-18.32.41:815][841]Cmd: TRANSACTION UNDO
+[2016.05.29-18.32.41:815][841]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.32.41:830][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.29-18.32.41:830][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-18.32.41:832][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2016.05.29-18.32.43:974][ 34]Cmd: TRANSACTION UNDO
+[2016.05.29-18.32.43:974][ 34]LogEditorTransaction: Undo Edit X
+[2016.05.29-18.32.43:981][ 34]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.29-18.32.43:983][ 34]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-18.32.43:983][ 34]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2016.05.29-18.34.56:037][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame7)
+[2016.05.29-18.36.22:790][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-18.36.23:052][568]LogSavePackage: Save=234.325073ms
+[2016.05.29-18.36.23:052][568]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home8FA8286D434F7D3DFD5288834143EE42.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-18.36.23:055][568]LogSavePackage: Total save time: 240.093499ms
+[2016.05.29-18.36.23:055][568]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-18.36.23:103][568]LogFileHelpers: Saving map 'Home' took 1.557
+[2016.05.29-18.43.10:784][795]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2016.05.29-18.43.35:771][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame7)
+[2016.05.29-18.43.36:336][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame7)
+[2016.05.29-18.44.29:559][926]Cmd: TRANSACTION UNDO
+[2016.05.29-18.44.29:559][926]LogEditorTransaction: Undo Edit Y
+[2016.05.29-18.44.29:580][926]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-18.45.36:020][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame3)
+[2016.05.29-18.47.48:487][855]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.05.29-18.47.52:610][308]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.05.29-18.47.56:891][770]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-18.48.02:705][382]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2016.05.29-18.48.08:791][ 39]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2016.05.29-18.48.12:260][407]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2016.05.29-18.48.26:835][ 68]Cmd: TRANSACTION UNDO
+[2016.05.29-18.48.26:835][ 68]LogEditorTransaction: Undo Move Actors
+[2016.05.29-18.48.42:381][804]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.05.29-18.49.05:469][442]Cmd: TRANSACTION UNDO
+[2016.05.29-18.49.05:469][442]LogEditorTransaction: Undo Edit Y
+[2016.05.29-18.49.05:487][442]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-18.49.11:774][ 17]Cmd: TRANSACTION REDO
+[2016.05.29-18.49.11:774][ 17]LogEditorTransaction: Redo Edit Y
+[2016.05.29-18.50.28:692][752]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.05.29-18.51.33:461][162]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.05.29-18.52.00:958][299]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.05.29-18.55.42:668][535]Cmd: DELETE
+[2016.05.29-18.55.42:668][535]Cmd: ACTOR DELETE
+[2016.05.29-18.55.42:669][535]LogEditorActor: Deleted Actor: Brush
+[2016.05.29-18.55.42:737][535]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2016.05.29-18.56.29:603][832]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.29-18.57.08:222][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-18.57.08:611][ 67]LogSavePackage: Save=353.933929ms
+[2016.05.29-18.57.08:611][ 67]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/HomeE523802E4B9E2C28081144B781513587.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-18.57.08:613][ 67]LogSavePackage: Total save time: 359.205697ms
+[2016.05.29-18.57.08:613][ 67]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-18.57.08:645][ 67]LogFileHelpers: Saving map 'Home' took 1.987
+[2016.05.29-19.07.52:691][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame9)
+[2016.05.29-19.08.26:184][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-19.08.26:357][691]LogSavePackage: Save=167.339508ms
+[2016.05.29-19.08.26:357][691]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto16913063F4FF24A41CBEF47B39062C7B4.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto1.umap'
+[2016.05.29-19.08.26:358][691]LogSavePackage: Total save time: 172.997531ms
+[2016.05.29-19.08.26:358][691]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto1.umap
+[2016.05.29-19.08.26:360][691]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.233
+[2016.05.29-19.08.26:360][691]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.233
+[2016.05.29-19.09.09:344][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame9)
+[2016.05.29-19.09.46:864][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-19.09.47:037][415]LogSavePackage: Save=147.485306ms
+[2016.05.29-19.09.47:037][415]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home48D7E40C40C630B3902B548C2C51A08B.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-19.09.47:039][415]LogSavePackage: Total save time: 152.132884ms
+[2016.05.29-19.09.47:039][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-19.09.47:073][415]LogFileHelpers: Saving map 'Home' took 1.574
+[2016.05.29-19.09.48:242][543]MapCheck: New page: Map Check
+[2016.05.29-19.09.48:263][543]Cmd: MAP REBUILD ALLVISIBLE
+[2016.05.29-19.09.48:263][543]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.05.29-19.09.48:323][543]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.05.29-19.09.48:323][543]LogStats:          STAT_HLOD_BuildClusters - 23.153 ms
+[2016.05.29-19.09.48:324][543]LightingResults: New page: Lighting Build - May 29, 2016, 11:09:48 AM
+[2016.05.29-19.09.53:552][543]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.05.29-19.09.53:552][543]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.05.29-19.09.53:552][543]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.05.29-19.09.53:552][543]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.05.29-19.09.53:552][543]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.05.29-19.09.53:552][543]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.05.29-19.09.53:681][543]LogEditorBuildUtils: Build time 0:00:05
+[2016.05.29-19.10.02:953][205]Job is a success!
+[2016.05.29-19.10.03:248][207]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.05.29-19.10.03:431][207]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.05.29-19.10.03:432][207]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.05.29-19.10.03:432][207]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.05.29-19.10.03:481][207]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.05.29-19.10.03:577][207]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.05.29-19.10.03:673][207]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.05.29-19.10.03:869][207]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.05.29-19.10.04:076][207]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.05.29-19.10.04:119][207]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.05.29-19.10.04:122][207]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2016.05.29-19.10.04:163][207]Lightmass on KAITLYN-PC: 9.16 sec total, 147 ms importing, 2 ms setup, 427 ms photons, 8.56 sec processing, 0 ms extra exporting [110/110 mappings]. Threads: 34.1 sec total, 20.6 sec processing.
+[2016.05.29-19.10.04:184][207]LogStaticLightingSystem: Illumination: 15.8 sec (979 ms encoding lightmaps)
+[2016.05.29-19.10.04:184][207]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (0.4 MB streaming, 1.3 MB non-streaming), 8 textures
+[2016.05.29-19.10.04:184][207]LogStaticLightingSystem: Shadowmap texture memory: 6.0 MB (0.7 MB streaming, 5.3 MB non-streaming), 6 textures
+[2016.05.29-19.10.04:563][208]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.05.29-19.10.04:563][208]MapCheck: New page: Home - May 29, 2016, 11:10:04 AM
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame3 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame3.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame5 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame5.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame4 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame4.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame2 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame2.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame_8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame_8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame9 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame9.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame6 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame6.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame7 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame7.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck:Warning: Warning SM_DoorFrame8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.10.04:702][208]MapCheck: Info Map check complete: 0 Error(s), 9 Warning(s), took 138.766ms to complete.
+[2016.05.29-19.10.11:971][976]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.05.29-19.11.31:256][448]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight7)
+[2016.05.29-19.11.33:324][682]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2016.05.29-19.11.36:066][992]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.05.29-19.11.39:530][385]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2016.05.29-19.11.40:881][536]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight7)
+[2016.05.29-19.11.43:267][802]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2016.05.29-19.11.49:085][460]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.05.29-19.11.54:598][ 96]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight9)
+[2016.05.29-19.12.14:659][229]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight9)
+[2016.05.29-19.12.22:098][ 33]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2016.05.29-19.13.26:506][971]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2016.05.29-19.13.50:478][622]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2016.05.29-19.13.51:223][704]Cmd: DELETE
+[2016.05.29-19.13.51:223][704]Cmd: ACTOR DELETE
+[2016.05.29-19.13.51:224][704]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-19.13.51:247][704]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2016.05.29-19.13.52:048][798]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2016.05.29-19.14.05:908][326]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2016.05.29-19.14.50:161][925]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight4)
+[2016.05.29-19.14.57:993][781]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight14)
+[2016.05.29-19.15.00:665][ 79]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight4)
+[2016.05.29-19.15.23:875][593]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight15)
+[2016.05.29-19.15.30:369][242]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight12)
+[2016.05.29-19.15.37:489][982]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight13)
+[2016.05.29-19.15.43:112][572]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.05.29-19.16.10:834][471]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-19.16.28:569][245]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight2)
+[2016.05.29-19.16.29:369][331]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.05.29-19.16.41:011][575]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.05.29-19.16.54:191][976]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight)
+[2016.05.29-19.17.02:901][883]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.05.29-19.17.08:845][511]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight)
+[2016.05.29-19.17.13:536][  1]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-19.17.16:084][266]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight2)
+[2016.05.29-19.17.17:626][427]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-19.17.32:605][ 84]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.05.29-19.17.33:824][224]Cmd: DELETE
+[2016.05.29-19.17.33:824][224]Cmd: ACTOR DELETE
+[2016.05.29-19.17.33:825][224]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.05.29-19.17.33:847][224]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.05.29-19.17.38:388][767]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.29-19.17.39:778][930]Cmd: DELETE
+[2016.05.29-19.17.39:778][930]Cmd: ACTOR DELETE
+[2016.05.29-19.17.39:779][930]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.05.29-19.17.39:799][930]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.05.29-19.19.35:148][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-19.19.35:510][865]LogSavePackage: Save=330.470886ms
+[2016.05.29-19.19.35:510][865]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/HomeD33FE5A2446244F2F30319B2FD45F0F6.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-19.19.35:513][865]LogSavePackage: Total save time: 337.435417ms
+[2016.05.29-19.19.35:513][865]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-19.19.35:540][865]LogFileHelpers: Saving map 'Home' took 1.650
+[2016.05.29-19.19.36:951][ 14]MapCheck: New page: Map Check
+[2016.05.29-19.19.36:971][ 14]Cmd: MAP REBUILD ALLVISIBLE
+[2016.05.29-19.19.36:971][ 14]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.05.29-19.19.37:031][ 14]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.05.29-19.19.37:031][ 14]LogStats:          STAT_HLOD_BuildClusters - 23.523 ms
+[2016.05.29-19.19.37:031][ 14]LightingResults: New page: Lighting Build - May 29, 2016, 11:19:37 AM
+[2016.05.29-19.19.42:149][ 14]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.05.29-19.19.42:150][ 14]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.05.29-19.19.42:150][ 14]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.05.29-19.19.42:150][ 14]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.05.29-19.19.42:150][ 14]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.05.29-19.19.42:150][ 14]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.05.29-19.19.42:252][ 14]LogEditorBuildUtils: Build time 0:00:05
+[2016.05.29-19.19.54:378][832]Job is a success!
+[2016.05.29-19.19.54:612][833]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.05.29-19.19.54:847][833]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.05.29-19.19.54:905][833]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.05.29-19.19.54:981][833]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.05.29-19.19.55:128][833]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.05.29-19.19.55:470][833]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.05.29-19.19.55:720][833]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2016.05.29-19.19.55:788][833]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2016.05.29-19.19.55:832][833]Lightmass on KAITLYN-PC: 11.8 sec total, 128 ms importing, 3 ms setup, 365 ms photons, 11.3 sec processing, 0 ms extra exporting [109/109 mappings]. Threads: 45.1 sec total, 27.4 sec processing.
+[2016.05.29-19.19.55:858][833]LogStaticLightingSystem: Illumination: 18.7 sec (1.28 sec encoding lightmaps)
+[2016.05.29-19.19.55:858][833]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (0.4 MB streaming, 1.3 MB non-streaming), 6 textures
+[2016.05.29-19.19.55:858][833]LogStaticLightingSystem: Shadowmap texture memory: 9.4 MB (1.4 MB streaming, 8.0 MB non-streaming), 8 textures
+[2016.05.29-19.19.56:160][834]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.05.29-19.19.56:160][834]MapCheck: New page: Home - May 29, 2016, 11:19:56 AM
+[2016.05.29-19.19.56:248][834]MapCheck:Warning: Warning SM_DoorFrame3 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame3.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:248][834]MapCheck:Warning: Warning SM_DoorFrame5 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame5.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:248][834]MapCheck:Warning: Warning SM_DoorFrame4 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame4.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:248][834]MapCheck:Warning: Warning SM_DoorFrame2 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame2.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:248][834]MapCheck:Warning: Warning SM_DoorFrame_8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame_8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:249][834]MapCheck:Warning: Warning SM_DoorFrame9 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame9.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:249][834]MapCheck:Warning: Warning SM_DoorFrame6 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame6.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:249][834]MapCheck:Warning: Warning SM_DoorFrame7 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame7.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:249][834]MapCheck:Warning: Warning SM_DoorFrame8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.19.56:249][834]MapCheck: Info Map check complete: 0 Error(s), 9 Warning(s), took 88.936ms to complete.
+[2016.05.29-19.22.31:388][756]MapCheck: New page: Map Check
+[2016.05.29-19.22.31:402][756]Cmd: MAP REBUILD ALLVISIBLE
+[2016.05.29-19.22.31:402][756]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.05.29-19.22.31:467][756]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.05.29-19.22.31:467][756]LogStats:          STAT_HLOD_BuildClusters - 26.025 ms
+[2016.05.29-19.22.31:467][756]LightingResults: New page: Lighting Build - May 29, 2016, 11:22:31 AM
+[2016.05.29-19.22.36:587][756]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.05.29-19.22.36:587][756]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.05.29-19.22.36:587][756]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.05.29-19.22.36:587][756]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.05.29-19.22.36:587][756]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.05.29-19.22.36:587][756]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.05.29-19.22.36:706][756]LogEditorBuildUtils: Build time 0:00:05
+[2016.05.29-19.22.52:493][123]Job is a success!
+[2016.05.29-19.22.52:743][124]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.05.29-19.22.52:922][124]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.05.29-19.22.52:993][124]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.05.29-19.22.53:065][124]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.05.29-19.22.53:212][124]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.05.29-19.22.53:475][124]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.05.29-19.22.53:721][124]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.05.29-19.22.53:786][124]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2016.05.29-19.22.53:916][124]LogStaticLightingSystem: Illumination: 22.4 sec (1.15 sec encoding lightmaps)
+[2016.05.29-19.22.53:916][124]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (0.4 MB streaming, 1.3 MB non-streaming), 6 textures
+[2016.05.29-19.22.53:916][124]LogStaticLightingSystem: Shadowmap texture memory: 12.7 MB (2.0 MB streaming, 10.7 MB non-streaming), 10 textures
+[2016.05.29-19.22.54:608][125]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.05.29-19.22.54:608][125]MapCheck: New page: Home - May 29, 2016, 11:22:54 AM
+[2016.05.29-19.22.54:710][125]MapCheck:Warning: Warning SM_DoorFrame3 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame3.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:710][125]MapCheck:Warning: Warning SM_DoorFrame5 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame5.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:710][125]MapCheck:Warning: Warning SM_DoorFrame4 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame4.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:710][125]MapCheck:Warning: Warning SM_DoorFrame2 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame2.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:710][125]MapCheck:Warning: Warning SM_DoorFrame_8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame_8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:710][125]MapCheck:Warning: Warning SM_DoorFrame9 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame9.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:711][125]MapCheck:Warning: Warning SM_DoorFrame6 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame6.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:711][125]MapCheck:Warning: Warning SM_DoorFrame7 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame7.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:711][125]MapCheck:Warning: Warning SM_DoorFrame8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-19.22.54:711][125]MapCheck: Info Map check complete: 0 Error(s), 9 Warning(s), took 102.865ms to complete.
+[2016.05.29-19.24.33:434][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-19.24.33:882][183]LogSavePackage: Save=422.657074ms
+[2016.05.29-19.24.33:882][183]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home72CE36E74D1A9CF9C252EEB106E2E510.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-19.24.33:885][183]LogSavePackage: Total save time: 427.556857ms
+[2016.05.29-19.24.33:885][183]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-19.24.33:913][183]LogFileHelpers: Saving map 'Home' took 1.410
+[2016.05.29-19.27.09:575][856]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2016.05.29-19.27.48:477][877]Cmd: DELETE
+[2016.05.29-19.27.48:477][877]Cmd: ACTOR DELETE
+[2016.05.29-19.27.48:479][877]LogEditorActor: Deleted Actor: Brush
+[2016.05.29-19.27.48:958][877]LogEditorActor: Deleted 1 Actors (0.480 secs)
+[2016.05.29-19.28.08:978][197]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2016.05.29-19.29.14:273][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-19.29.15:273][425]LogSavePackage: Save=460.960083ms
+[2016.05.29-19.29.15:273][425]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home4D2E36F74A76C3770981938C281F6D7E.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-19.29.15:276][425]LogSavePackage: Total save time: 968.408670ms
+[2016.05.29-19.29.15:276][425]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-19.29.15:345][425]LogFileHelpers: Saving map 'Home' took 2.960
+[2016.05.29-19.29.25:855][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-19.29.26:303][552]PIE: New page: PIE session: Home (May 29, 2016, 11:29:26 AM)
+[2016.05.29-19.29.26:844][552]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
+[2016.05.29-19.29.29:279][552]LogPlayLevel: PIE: StaticDuplicateObject took: (1.594508s)
+[2016.05.29-19.29.29:862][552]LogAIModule: Creating AISystem for world Home
+[2016.05.29-19.29.29:971][552]LogPlayLevel: PIE: World Init took: (0.692098s)
+[2016.05.29-19.29.29:971][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (3.126813s)
+[2016.05.29-19.29.30:432][552]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-19.29.30:674][552]LogInit: FAudioDevice initialized.
+[2016.05.29-19.29.31:959][552]LogWorld: Game class is 'GameMode'
+[2016.05.29-19.29.33:790][552]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-15.29.33
+[2016.05.29-19.29.33:790][552]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.29-19.29.33:904][552]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.29-19.29.34:032][552]LogWorld: Bringing up level for play took: 0.250282
+[2016.05.29-19.29.37:141][552]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home 11.893
+[2016.05.29-19.31.35:688][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000069BC5800
+[2016.05.29-19.31.36:840][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-19.31.36:840][887]PIE: New page: PIE session: Home (May 29, 2016, 11:31:36 AM)
+[2016.05.29-19.31.36:840][887]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
+[2016.05.29-19.31.36:868][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027326s)
+[2016.05.29-19.31.36:868][887]LogAIModule: Creating AISystem for world Home
+[2016.05.29-19.31.36:869][887]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2016.05.29-19.31.36:869][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.028507s)
+[2016.05.29-19.31.36:899][887]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-19.31.36:916][887]LogInit: FAudioDevice initialized.
+[2016.05.29-19.31.36:952][887]LogWorld: Game class is 'GameMode'
+[2016.05.29-19.31.36:961][887]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-15.31.36
+[2016.05.29-19.31.36:961][887]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.29-19.31.36:978][887]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.29-19.31.36:979][887]LogWorld: Bringing up level for play took: 0.025912
+[2016.05.29-19.31.36:981][887]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home -0.27
+[2016.05.29-19.31.48:172][218]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057F51940
+[2016.05.29-19.31.55:468][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-19.31.55:469][727]PIE: New page: PIE session: Home (May 29, 2016, 11:31:55 AM)
+[2016.05.29-19.31.55:469][727]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
+[2016.05.29-19.31.55:493][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024457s)
+[2016.05.29-19.31.55:494][727]LogAIModule: Creating AISystem for world Home
+[2016.05.29-19.31.55:494][727]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2016.05.29-19.31.55:494][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.025335s)
+[2016.05.29-19.31.55:519][727]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-19.31.55:537][727]LogInit: FAudioDevice initialized.
+[2016.05.29-19.31.55:573][727]LogWorld: Game class is 'GameMode'
+[2016.05.29-19.31.55:581][727]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-15.31.55
+[2016.05.29-19.31.55:581][727]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.29-19.31.55:582][727]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.29-19.31.55:582][727]LogWorld: Bringing up level for play took: 0.008400
+[2016.05.29-19.31.55:584][727]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home 0.333
+[2016.05.29-19.35.23:129][513]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007917A980
+[2016.05.29-19.35.59:691][929]LogActorFactory: Actor Factory created SM_WindowFrame
+[2016.05.29-19.37.05:222][338]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.05.29-19.38.05:291][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-19.38.05:899][135]LogSavePackage: Save=235.911804ms
+[2016.05.29-19.38.05:899][135]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home94FA453D43D58B91E075BF962E8DFE33.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-19.38.05:902][135]LogSavePackage: Total save time: 588.134311ms
+[2016.05.29-19.38.05:902][135]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-19.38.05:928][135]LogFileHelpers: Saving map 'Home' took 1.669
+[2016.05.29-20.24.52:135][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-20.24.52:558][866]LogSavePackage: Save=237.413620ms
+[2016.05.29-20.24.52:558][866]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto23ABF582F4ABD3265B66B239B2C5AAF4B.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto2.umap'
+[2016.05.29-20.24.52:560][866]LogSavePackage: Total save time: 422.964327ms
+[2016.05.29-20.24.52:560][866]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto2.umap
+[2016.05.29-20.24.52:562][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.494
+[2016.05.29-20.24.52:562][866]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.494
+[2016.05.29-20.25.30:635][641]Cmd: TRANSACTION UNDO
+[2016.05.29-20.25.30:648][641]LogEditorTransaction: Undo Modifier [Create]
+[2016.05.29-20.25.30:686][641]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.25.36:530][143]LogGeometryMode:Warning: Unable to find 1 Edge(s) in new BSP
+[2016.05.29-20.25.36:530][143]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.25.36:530][143]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.25.53:846][841]LogGeometryMode:Warning: Unable to find 1 Edge(s) in new BSP
+[2016.05.29-20.25.53:846][841]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.25.53:846][841]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.26.44:091][301]LogGeometryMode:Warning: Unable to find 1 Edge(s) in new BSP
+[2016.05.29-20.26.44:091][301]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.26.44:091][301]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.26.50:089][927]Cmd: DELETE
+[2016.05.29-20.26.50:090][927]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.26.50:090][927]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.26.50:090][927]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.26.51:461][ 44]Cmd: TRANSACTION UNDO
+[2016.05.29-20.26.51:461][ 44]LogEditorTransaction: Undo Modifier [Delete]
+[2016.05.29-20.26.51:497][ 44]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.26.51:500][ 44]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2016.05.29-20.26.57:496][677]Cmd: DELETE
+[2016.05.29-20.26.57:496][677]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.26.57:496][677]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.26.57:496][677]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.27.04:632][428]Cmd: DELETE
+[2016.05.29-20.27.04:633][428]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.27.04:633][428]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.27.04:633][428]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.27.23:916][539]LogEditorViewport: Clicking Background
+[2016.05.29-20.27.46:084][987]Cmd: TRANSACTION UNDO
+[2016.05.29-20.27.46:084][987]LogEditorTransaction: Undo Modifier [Weld]
+[2016.05.29-20.27.46:097][987]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.28.02:055][664]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.02:055][664]LogEditorTransaction: Undo Modifier [Weld]
+[2016.05.29-20.28.02:067][664]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.28.04:233][848]LogGeometryMode:Warning: Unable to find BoxBrush6 Brush(s) in new BSP
+[2016.05.29-20.28.04:233][848]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.28.06:391][ 93]LogGeometryMode:Warning: Unable to find BoxBrush31 Brush(s) in new BSP
+[2016.05.29-20.28.06:391][ 93]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.28.19:094][502]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.19:094][502]LogEditorTransaction: Undo Modifier [Weld]
+[2016.05.29-20.28.19:107][502]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.28.20:423][601]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.20:423][601]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.28.20:995][665]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.20:995][665]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.28.21:445][714]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.21:445][714]LogEditorTransaction: Undo Select Brush Surface
+[2016.05.29-20.28.22:921][880]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.22:921][880]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.28.23:494][944]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.23:494][944]LogEditorTransaction: Undo Select Brush Surface
+[2016.05.29-20.28.27:432][386]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.27:432][386]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.28.29:048][545]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.29:048][545]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.28.29:525][598]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.29:525][598]LogEditorTransaction: Undo Modifier [Weld]
+[2016.05.29-20.28.29:538][598]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.28.41:448][867]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.41:448][867]LogEditorTransaction: Undo Modifier [Weld]
+[2016.05.29-20.28.41:460][867]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.28.50:964][875]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.50:964][875]LogEditorTransaction: Undo Modifier [Weld]
+[2016.05.29-20.28.50:976][875]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.28.52:264][960]Cmd: TRANSACTION UNDO
+[2016.05.29-20.28.52:264][960]LogEditorTransaction: Undo Modifier [Create]
+[2016.05.29-20.28.52:277][960]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.29.50:625][229]Cmd: TRANSACTION UNDO
+[2016.05.29-20.29.50:625][229]LogEditorTransaction: Undo Edit Y
+[2016.05.29-20.29.50:640][229]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.30.21:806][509]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.30.21:806][509]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.30.21:806][509]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.30.35:903][ 62]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.30.35:903][ 62]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.30.35:903][ 62]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.30.41:303][661]Cmd: TRANSACTION UNDO
+[2016.05.29-20.30.41:303][661]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.30.41:315][661]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.30.41:427][661]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.30.41:427][661]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.30.41:427][661]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.30.49:926][622]Cmd: DELETE
+[2016.05.29-20.30.50:038][622]Cmd: ACTOR DELETE
+[2016.05.29-20.30.50:078][622]LogEditorActor: Deleted Actor: Brush
+[2016.05.29-20.30.50:246][622]LogEditorActor: Deleted 1 Actors (0.168 secs)
+[2016.05.29-20.30.51:409][743]Cmd: TRANSACTION UNDO
+[2016.05.29-20.30.51:409][743]LogEditorTransaction: Undo Delete Actors
+[2016.05.29-20.30.51:424][743]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2016.05.29-20.32.56:257][968]Cmd: TRANSACTION UNDO
+[2016.05.29-20.32.56:257][968]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.32.56:625][995]Cmd: TRANSACTION UNDO
+[2016.05.29-20.32.56:625][995]LogEditorTransaction: Undo Vertex Snap
+[2016.05.29-20.32.56:650][995]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2016.05.29-20.32.56:650][995]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-20.32.56:654][995]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-20.32.57:142][ 34]Cmd: TRANSACTION UNDO
+[2016.05.29-20.32.57:142][ 34]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.32.57:556][ 77]Cmd: TRANSACTION UNDO
+[2016.05.29-20.32.57:556][ 77]LogEditorTransaction: Undo Vertex Snap
+[2016.05.29-20.32.57:569][ 77]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2016.05.29-20.32.57:569][ 77]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.05.29-20.32.57:573][ 77]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-20.32.57:935][ 84]Cmd: TRANSACTION UNDO
+[2016.05.29-20.32.57:935][ 84]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.32.58:384][132]Cmd: TRANSACTION UNDO
+[2016.05.29-20.32.58:384][132]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.32.58:833][183]Cmd: TRANSACTION UNDO
+[2016.05.29-20.32.58:833][183]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.00:082][326]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.00:082][326]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.01:713][515]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.01:713][515]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.33.01:725][515]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.33.02:448][545]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.02:448][545]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.02:885][591]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.02:885][591]LogEditorTransaction: Undo Modifier [Delete]
+[2016.05.29-20.33.02:897][591]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.33.02:900][591]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2016.05.29-20.33.03:424][636]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.03:424][636]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.03:921][690]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.03:921][690]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.04:547][758]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.04:547][758]LogEditorTransaction: Undo Modifier [Delete]
+[2016.05.29-20.33.04:560][758]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.33.04:563][758]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2016.05.29-20.33.05:282][827]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.05:282][827]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.05:847][890]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.05:847][890]LogEditorTransaction: Undo Modifier [Delete]
+[2016.05.29-20.33.05:863][890]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.33.05:868][890]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2016.05.29-20.33.06:422][936]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.06:422][936]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.06:951][996]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.06:951][996]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.33.06:964][996]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.33.08:310][113]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.08:310][113]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.33.08:322][113]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.33.09:382][202]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.09:382][202]LogEditorTransaction: Undo Modifier [Optimize]
+[2016.05.29-20.33.09:404][202]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2016.05.29-20.33.10:709][336]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.10:709][336]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.11:343][407]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.11:343][407]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.12:135][494]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.12:135][494]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.12:544][539]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.12:544][539]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.12:821][566]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.12:821][566]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.13:171][604]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.13:171][604]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.13:570][648]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.13:570][648]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.13:955][689]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.13:955][689]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.14:371][735]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.14:371][735]LogEditorTransaction: Undo Select Brush Surface
+[2016.05.29-20.33.15:185][830]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.15:185][830]LogEditorTransaction: Undo Clicking Background
+[2016.05.29-20.33.15:602][838]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.15:602][838]LogEditorTransaction: Undo Modifier [Optimize]
+[2016.05.29-20.33.15:648][838]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2016.05.29-20.33.16:035][838]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.16:035][838]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.16:498][871]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.16:498][871]LogEditorTransaction: Undo Modifier [Delete]
+[2016.05.29-20.33.16:510][871]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.33.16:514][871]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2016.05.29-20.33.16:994][882]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.16:994][882]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.33.17:715][963]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.17:715][963]LogEditorTransaction: Undo Modifier [Delete]
+[2016.05.29-20.33.17:726][963]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.33.17:729][963]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2016.05.29-20.33.18:597][  6]Cmd: TRANSACTION UNDO
+[2016.05.29-20.33.18:597][  6]LogEditorTransaction: Undo Modifier [Edit]
+[2016.05.29-20.34.06:382][303]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush31)
+[2016.05.29-20.34.26:739][354]Cmd: DELETE
+[2016.05.29-20.34.26:739][354]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.34.26:739][354]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.34.26:739][354]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.34.28:101][473]Cmd: DELETE
+[2016.05.29-20.34.28:102][473]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.34.28:102][473]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.34.28:102][473]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.34.29:859][664]Cmd: DELETE
+[2016.05.29-20.34.29:859][664]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.34.29:859][664]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.34.29:859][664]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.34.45:860][503]Cmd: DELETE
+[2016.05.29-20.34.45:861][503]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.34.45:861][503]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.34.45:861][503]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.34.47:126][637]Cmd: TRANSACTION UNDO
+[2016.05.29-20.34.47:126][637]LogEditorTransaction: Undo Modifier [Delete]
+[2016.05.29-20.34.47:139][637]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.34.47:142][637]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2016.05.29-20.34.54:611][443]Cmd: DELETE
+[2016.05.29-20.34.54:612][443]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.34.54:612][443]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.34.54:612][443]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.34.56:244][595]Cmd: DELETE
+[2016.05.29-20.34.56:327][595]Cmd: ACTOR DELETE
+[2016.05.29-20.34.56:327][595]LogEditorActor: Deleted Actor: Brush
+[2016.05.29-20.34.56:476][595]LogEditorActor: Deleted 1 Actors (0.149 secs)
+[2016.05.29-20.34.57:663][736]Cmd: TRANSACTION UNDO
+[2016.05.29-20.34.57:663][736]LogEditorTransaction: Undo Delete Actors
+[2016.05.29-20.34.57:677][736]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2016.05.29-20.35.00:163][981]Cmd: DELETE
+[2016.05.29-20.35.00:163][981]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.00:163][981]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.00:163][981]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.01:717][129]Cmd: DELETE
+[2016.05.29-20.35.01:717][129]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.01:717][129]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.01:717][129]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.11:137][164]Cmd: DELETE
+[2016.05.29-20.35.11:137][164]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.11:137][164]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.11:137][164]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.12:595][318]Cmd: DELETE
+[2016.05.29-20.35.12:596][318]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.12:596][318]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.12:596][318]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.13:902][457]Cmd: DELETE
+[2016.05.29-20.35.14:032][457]Cmd: ACTOR DELETE
+[2016.05.29-20.35.14:033][457]LogEditorActor: Deleted Actor: Brush
+[2016.05.29-20.35.14:133][457]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2016.05.29-20.35.15:314][580]Cmd: TRANSACTION UNDO
+[2016.05.29-20.35.15:314][580]LogEditorTransaction: Undo Delete Actors
+[2016.05.29-20.35.15:329][580]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2016.05.29-20.35.16:977][737]Cmd: DELETE
+[2016.05.29-20.35.16:977][737]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.16:977][737]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.16:977][737]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.18:328][873]Cmd: DELETE
+[2016.05.29-20.35.18:328][873]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.18:328][873]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.18:328][873]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.19:871][ 46]Cmd: DELETE
+[2016.05.29-20.35.19:871][ 46]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.19:871][ 46]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.19:872][ 46]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.47:078][212]Cmd: TRANSACTION UNDO
+[2016.05.29-20.35.47:078][212]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.35.47:091][212]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.35.47:169][212]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.47:169][212]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.47:169][212]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.50:722][596]Cmd: DELETE
+[2016.05.29-20.35.50:722][596]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.35.50:722][596]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.35.50:722][596]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.35.52:065][717]Cmd: TRANSACTION UNDO
+[2016.05.29-20.35.52:065][717]LogEditorTransaction: Undo Modifier [Delete]
+[2016.05.29-20.35.52:076][717]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.35.52:079][717]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2016.05.29-20.36.26:415][549]Cmd: TRANSACTION UNDO
+[2016.05.29-20.36.26:415][549]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.36.26:427][549]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.36.26:490][549]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.36.26:490][549]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.36.26:490][549]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.36.27:442][633]Cmd: TRANSACTION UNDO
+[2016.05.29-20.36.27:442][633]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.36.27:454][633]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.36.27:653][633]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.05.29-20.36.27:653][633]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.36.27:653][633]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.36.52:678][516]LogGeometryMode:Warning: Unable to find 1 Edge(s) in new BSP
+[2016.05.29-20.36.52:678][516]LogGeometryMode:Warning: Unable to resolve BoxBrush31 Brush in new BSP, see above
+[2016.05.29-20.36.52:678][516]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.05.29-20.36.57:123][ 16]Cmd: TRANSACTION UNDO
+[2016.05.29-20.36.57:123][ 16]LogEditorTransaction: Undo Modifier [Split]
+[2016.05.29-20.36.57:136][ 16]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2016.05.29-20.38.11:453][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-20.38.11:453][253]PIE: New page: PIE session: Home (May 29, 2016, 12:38:11 PM)
+[2016.05.29-20.38.11:453][253]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
+[2016.05.29-20.38.11:484][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031498s)
+[2016.05.29-20.38.11:485][253]LogAIModule: Creating AISystem for world Home
+[2016.05.29-20.38.11:485][253]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2016.05.29-20.38.11:486][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.032740s)
+[2016.05.29-20.38.11:518][253]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-20.38.11:534][253]LogInit: FAudioDevice initialized.
+[2016.05.29-20.38.11:567][253]LogWorld: Game class is 'GameMode'
+[2016.05.29-20.38.11:588][253]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-16.38.11
+[2016.05.29-20.38.11:588][253]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.29-20.38.11:589][253]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.29-20.38.11:589][253]LogWorld: Bringing up level for play took: 0.008398
+[2016.05.29-20.38.11:592][253]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home 0.234
+[2016.05.29-20.38.19:134][130]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001B0F084A0
+[2016.05.29-20.39.32:036][105]Cmd: DELETE
+[2016.05.29-20.39.32:036][105]Cmd: ACTOR DELETE
+[2016.05.29-20.39.32:038][105]LogEditorActor: Deleted Actor: Brush
+[2016.05.29-20.39.32:174][105]LogEditorActor: Deleted 1 Actors (0.137 secs)
+[2016.05.29-20.40.24:878][123]Cmd: EDIT COPY
+[2016.05.29-20.40.27:871][473]Cmd: EDIT PASTE
+[2016.05.29-20.40.47:744][566]Cmd: TRANSACTION UNDO
+[2016.05.29-20.40.47:744][566]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.40.47:760][566]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-20.40.48:303][598]Cmd: TRANSACTION UNDO
+[2016.05.29-20.40.48:304][598]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.40.48:320][598]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-20.40.48:973][663]Cmd: TRANSACTION UNDO
+[2016.05.29-20.40.48:973][663]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.40.48:989][663]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-20.40.54:039][209]LogEditorViewport: Clicking Background
+[2016.05.29-20.40.55:218][348]Cmd: TRANSACTION UNDO
+[2016.05.29-20.40.55:218][348]LogEditorTransaction: Undo Clicking Background
+[2016.05.29-20.40.55:617][377]Cmd: TRANSACTION UNDO
+[2016.05.29-20.40.55:617][377]LogEditorTransaction: Undo Select Brush Surface
+[2016.05.29-20.40.56:108][426]Cmd: TRANSACTION UNDO
+[2016.05.29-20.40.56:108][426]LogEditorTransaction: Undo Paste
+[2016.05.29-20.40.56:139][426]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush22_21.BrushComponent0) Component already registered.
+[2016.05.29-20.40.56:140][426]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-20.40.56:140][426]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2016.05.29-20.40.56:140][426]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush29_30.BrushComponent0) Component already registered.
+[2016.05.29-20.40.56:141][426]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2016.05.29-20.40.56:143][426]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2016.05.29-20.41.02:892][143]Cmd: EDIT COPY
+[2016.05.29-20.41.03:634][230]Cmd: EDIT PASTE
+[2016.05.29-20.41.08:496][730]Cmd: TRANSACTION UNDO
+[2016.05.29-20.41.08:496][730]LogEditorTransaction: Undo Move Actors
+[2016.05.29-20.41.08:511][730]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2016.05.29-20.41.09:652][828]Cmd: TRANSACTION UNDO
+[2016.05.29-20.41.09:652][828]LogEditorTransaction: Undo Paste
+[2016.05.29-20.41.09:676][828]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2016.05.29-20.41.09:677][828]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2016.05.29-20.41.09:677][828]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2016.05.29-20.41.09:678][828]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2016.05.29-20.41.09:681][828]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.41.09:681][828]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush29_30.BrushComponent0) Component already registered.
+[2016.05.29-20.41.15:144][395]LogEditorViewport: Clicking Background
+[2016.05.29-20.41.15:735][458]LogEditorViewport: Clicking Background
+[2016.05.29-20.41.16:574][557]Cmd: EDIT PASTE
+[2016.05.29-20.41.17:664][663]Cmd: TRANSACTION UNDO
+[2016.05.29-20.41.17:664][663]LogEditorTransaction: Undo Paste
+[2016.05.29-20.41.17:690][663]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2016.05.29-20.41.17:691][663]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2016.05.29-20.41.17:691][663]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2016.05.29-20.41.17:691][663]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2016.05.29-20.41.17:694][663]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.05.29-20.41.17:695][663]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush29_30.BrushComponent0) Component already registered.
+[2016.05.29-20.41.57:839][878]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.05.29-20.42.16:796][701]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush31)
+[2016.05.29-20.42.46:784][381]Cmd: ACTOR SELECT ALL
+[2016.05.29-20.42.48:141][522]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush31)
+[2016.05.29-20.42.49:438][664]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush31)
+[2016.05.29-20.42.50:143][742]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush31)
+[2016.05.29-20.42.54:694][144]Cmd: POLY SELECT ALL
+[2016.05.29-20.42.56:867][368]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush31)
+[2016.05.29-20.43.54:360][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-20.43.54:949][484]LogSavePackage: Save=564.874939ms
+[2016.05.29-20.43.54:949][484]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto3D662BD2942A54A2410CD1195D77048AA.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto3.umap'
+[2016.05.29-20.43.54:951][484]LogSavePackage: Total save time: 589.103695ms
+[2016.05.29-20.43.54:951][484]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto3.umap
+[2016.05.29-20.43.54:953][484]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.681
+[2016.05.29-20.43.54:953][484]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.681
+[2016.05.29-20.59.01:247][930]LogStaticMesh: Building static mesh HouseTrimming...
+[2016.05.29-20.59.01:348][930]LogStaticMesh: Built static mesh [0.132864.2s] /Game/StarterContent/Architecture/HouseTrimming.HouseTrimming
+[2016.05.29-20.59.01:388][930]LogActorFactory: Actor Factory created HouseTrimming
+[2016.05.29-20.59.01:929][930]EditorErrors: New page: Actor Reattachment
+[2016.05.29-21.01.07:851][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming2)
+[2016.05.29-21.01.33:060][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming)
+[2016.05.29-21.02.54:206][298]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Home.Home:PersistentLevel.HouseTrimming5.StaticMeshComponent0 HouseTrimming'.
+[2016.05.29-21.03.00:362][  6]Cmd: TRANSACTION UNDO
+[2016.05.29-21.03.00:362][  6]LogEditorTransaction: Undo Move Actors
+[2016.05.29-21.03.13:373][379]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Home.Home:PersistentLevel.HouseTrimming5.StaticMeshComponent0 HouseTrimming'.
+[2016.05.29-21.03.26:572][860]Cmd: MODE SCALEGRID=0
+[2016.05.29-21.03.28:002][ 19]Cmd: MODE SCALEGRID=1
+[2016.05.29-21.03.29:053][134]Cmd: MODE SCALEGRID=0
+[2016.05.29-21.05.24:088][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming4)
+[2016.05.29-21.05.32:298][448]Cmd: MODE SCALEGRID=1
+[2016.05.29-21.05.32:841][502]Cmd: MODE SCALEGRID=0
+[2016.05.29-21.05.33:218][536]Cmd: MODE SCALEGRID=1
+[2016.05.29-21.05.34:841][715]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Home.Home:PersistentLevel.HouseTrimming11.StaticMeshComponent0 HouseTrimming'.
+[2016.05.29-21.08.42:148][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming4)
+[2016.05.29-21.08.44:423][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming11)
+[2016.05.29-21.09.42:828][463]LogEditorViewport: Clicking Background
+[2016.05.29-21.09.47:666][ 19]Cmd: DELETE
+[2016.05.29-21.09.47:667][ 19]Cmd: ACTOR DELETE
+[2016.05.29-21.09.47:668][ 19]LogEditorActor: Deleted Actor: Brush
+[2016.05.29-21.09.47:884][ 19]LogEditorActor: Deleted 1 Actors (0.217 secs)
+[2016.05.29-21.09.56:176][981]Cmd: TRANSACTION UNDO
+[2016.05.29-21.09.56:176][981]LogEditorTransaction: Undo Delete Actors
+[2016.05.29-21.09.56:190][981]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2016.05.29-21.10.53:074][259]Cmd: POLY SELECT ADJACENT ALL
+[2016.05.29-21.11.12:263][227]Cmd: POLY SELECT ADJACENT COPLANARS
+[2016.05.29-21.11.38:726][420]MapCheck: New page: Map Check
+[2016.05.29-21.11.38:810][420]Cmd: MAP REBUILD ALLVISIBLE
+[2016.05.29-21.11.38:828][420]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.05.29-21.11.39:043][420]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.05.29-21.11.39:055][420]LogStats:          STAT_HLOD_BuildClusters - 81.907 ms
+[2016.05.29-21.11.39:099][420]LightingResults: New page: Lighting Build - May 29, 2016, 1:11:39 PM
+[2016.05.29-21.11.46:368][420]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.05.29-21.11.46:432][420]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.05.29-21.11.46:432][420]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.05.29-21.11.46:432][420]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.05.29-21.11.46:432][420]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.05.29-21.11.46:432][420]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.05.29-21.11.47:634][420]LogEditorBuildUtils: Build time 0:00:08
+[2016.05.29-21.12.01:542][454]Job is a success!
+[2016.05.29-21.12.02:734][455]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.05.29-21.12.03:040][455]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.05.29-21.12.03:082][455]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.05.29-21.12.03:124][455]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.05.29-21.12.03:453][455]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.05.29-21.12.03:843][455]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.05.29-21.12.04:068][455]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2016.05.29-21.12.04:136][455]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2016.05.29-21.12.04:304][455]Lightmass on KAITLYN-PC: 11.4 sec total, 582 ms importing, 3 ms setup, 530 ms photons, 9.59 sec processing, 0 ms extra exporting [153/153 mappings]. Threads: 38.3 sec total, 19.2 sec processing.
+[2016.05.29-21.12.04:590][455]LogStaticLightingSystem: Illumination: 25.1 sec (1.60 sec encoding lightmaps)
+[2016.05.29-21.12.04:590][455]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (1.4 MB streaming, 1.3 MB non-streaming), 6 textures
+[2016.05.29-21.12.04:590][455]LogStaticLightingSystem: Shadowmap texture memory: 16.0 MB (2.7 MB streaming, 13.3 MB non-streaming), 12 textures
+[2016.05.29-21.12.05:371][456]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.05.29-21.12.05:371][456]MapCheck: New page: Home - May 29, 2016, 1:12:05 PM
+[2016.05.29-21.12.06:686][456]MapCheck:Warning: Warning SM_DoorFrame3 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame3.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:686][456]MapCheck:Warning: Warning SM_DoorFrame5 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame5.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:686][456]MapCheck:Warning: Warning SM_DoorFrame4 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame4.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:686][456]MapCheck:Warning: Warning SM_DoorFrame2 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame2.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:686][456]MapCheck:Warning: Warning SM_DoorFrame_8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame_8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:686][456]MapCheck:Warning: Warning SM_DoorFrame9 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame9.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:687][456]MapCheck:Warning: Warning SM_DoorFrame6 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame6.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:687][456]MapCheck:Warning: Warning SM_DoorFrame7 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame7.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:687][456]MapCheck:Warning: Warning SM_DoorFrame8 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame8.StaticMeshComponent0 : Externally referenced 
+[2016.05.29-21.12.06:734][456]MapCheck: Info Map check complete: 0 Error(s), 9 Warning(s), took 1,315.443ms to complete.
+[2016.05.29-21.12.08:742][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-21.12.09:044][461]LogSavePackage: Save=292.342041ms
+[2016.05.29-21.12.09:044][461]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto4ECCB1AAD40B8B9A97CAA5E9C44FB2334.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto4.umap'
+[2016.05.29-21.12.09:094][461]LogSavePackage: Total save time: 350.346871ms
+[2016.05.29-21.12.09:094][461]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto4.umap
+[2016.05.29-21.12.09:097][461]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.383
+[2016.05.29-21.12.09:097][461]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.383
+[2016.05.29-21.12.09:136][461]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Architecture/HouseTrimming] ([1] browsable assets)...
+[2016.05.29-21.12.09:488][461]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Architecture/HouseTrimming.HouseTrimming]
+[2016.05.29-21.12.09:488][461]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Architecture/HouseTrimming]
+[2016.05.29-21.12.09:646][461]LogSavePackage: Save=154.092804ms
+[2016.05.29-21.12.09:646][461]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/HouseTrimming_Auto4CD0B33584E3A88170DCF459B149A73F9.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/StarterContent/Architecture/HouseTrimming_Auto4.uasset'
+[2016.05.29-21.12.09:648][461]LogSavePackage: Total save time: 156.564314ms
+[2016.05.29-21.12.09:648][461]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/StarterContent/Architecture/HouseTrimming_Auto4.uasset
+[2016.05.29-21.12.09:648][461]LogFileHelpers: Auto-saving content packages took 0.550
+[2016.05.29-21.16.32:354][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming3)
+[2016.05.29-21.16.45:622][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame3)
+[2016.05.29-21.16.50:761][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming20)
+[2016.05.29-21.16.56:727][607]LogContentBrowser: Native class hierarchy updated for 'WebBrowser' in 0.1409 seconds. Added 0 classes and 0 folders.
+[2016.05.29-21.16.58:607][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming20)
+[2016.05.29-21.17.16:208][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame3)
+[2016.05.29-21.17.17:117][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming20)
+[2016.05.29-21.17.44:235][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming11)
+[2016.05.29-21.18.11:101][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.18.54:527][772]Cmd: DELETE
+[2016.05.29-21.18.54:527][772]Cmd: ACTOR DELETE
+[2016.05.29-21.18.54:528][772]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.05.29-21.18.54:576][772]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2016.05.29-21.18.59:582][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.19.03:779][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming23)
+[2016.05.29-21.19.20:578][158]Cmd: TRANSACTION UNDO
+[2016.05.29-21.19.20:578][158]LogEditorTransaction: Undo Clicking on Actors
+[2016.05.29-21.19.22:220][301]Cmd: TRANSACTION UNDO
+[2016.05.29-21.19.22:220][301]LogEditorTransaction: Undo Rotate Actors
+[2016.05.29-21.19.31:849][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.19.48:897][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming22)
+[2016.05.29-21.19.54:267][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming23)
+[2016.05.29-21.19.57:068][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming21)
+[2016.05.29-21.19.57:883][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.19.58:644][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming22)
+[2016.05.29-21.20.00:941][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.20.23:325][373]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Home.Home:PersistentLevel.HouseTrimming24.StaticMeshComponent0 HouseTrimming'.
+[2016.05.29-21.20.25:615][619]Cmd: MODE SCALEGRID=0
+[2016.05.29-21.20.34:844][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.20.40:146][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming22)
+[2016.05.29-21.20.41:354][199]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming23)
+[2016.05.29-21.20.45:612][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.20.53:396][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming22)
+[2016.05.29-21.21.00:291][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.21.04:692][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming22)
+[2016.05.29-21.21.05:591][586]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming23)
+[2016.05.29-21.21.06:840][685]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming21)
+[2016.05.29-21.21.11:055][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.21.17:421][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming23)
+[2016.05.29-21.21.26:803][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.21.28:590][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming22)
+[2016.05.29-21.21.29:472][ 13]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming23)
+[2016.05.29-21.21.42:319][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming15)
+[2016.05.29-21.22.13:819][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming28)
+[2016.05.29-21.22.18:192][867]Cmd: MODE SCALEGRID=1
+[2016.05.29-21.22.34:675][531]Cmd: MODE SCALEGRID=0
+[2016.05.29-21.22.57:333][757]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming27)
+[2016.05.29-21.22.58:463][872]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming25)
+[2016.05.29-21.23.00:006][ 26]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming26)
+[2016.05.29-21.23.29:778][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming23)
+[2016.05.29-21.24.15:324][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-21.24.15:446][115]LogSavePackage: Save=94.805405ms
+[2016.05.29-21.24.15:446][115]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto55FBECB4D4F2EC16E16C17891975C58E6.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto5.umap'
+[2016.05.29-21.24.15:448][115]LogSavePackage: Total save time: 121.714953ms
+[2016.05.29-21.24.15:448][115]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto5.umap
+[2016.05.29-21.24.15:450][115]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.151
+[2016.05.29-21.24.15:450][115]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.151
+[2016.05.29-21.25.25:754][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming30)
+[2016.05.29-21.25.41:925][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming31)
+[2016.05.29-21.25.42:987][907]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming29)
+[2016.05.29-21.26.23:201][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming24)
+[2016.05.29-21.34.16:282][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-21.34.16:408][494]LogSavePackage: Save=111.742752ms
+[2016.05.29-21.34.16:408][494]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto6D57D3E0E4A774F5DF3FDB1A90348CB6F.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto6.umap'
+[2016.05.29-21.34.16:410][494]LogSavePackage: Total save time: 126.279179ms
+[2016.05.29-21.34.16:410][494]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto6.umap
+[2016.05.29-21.34.16:412][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.164
+[2016.05.29-21.34.16:412][494]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
+[2016.05.29-21.37.18:165][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming39)
+[2016.05.29-21.37.19:320][448]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming37)
+[2016.05.29-21.37.20:394][541]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming38)
+[2016.05.29-21.37.21:469][637]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming36)
+[2016.05.29-21.37.25:357][988]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming39)
+[2016.05.29-21.37.36:702][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming39)
+[2016.05.29-21.37.37:898][163]Cmd: MODE SCALEGRID=1
+[2016.05.29-21.37.38:678][234]Cmd: MODE SCALEGRID=0
+[2016.05.29-21.37.39:205][282]Cmd: MODE SCALEGRID=1
+[2016.05.29-21.37.40:264][386]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Home.Home:PersistentLevel.HouseTrimming39.StaticMeshComponent0 HouseTrimming'.
+[2016.05.29-21.38.12:798][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming35)
+[2016.05.29-21.38.27:939][865]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Home.Home:PersistentLevel.HouseTrimming40.StaticMeshComponent0 HouseTrimming'.
+[2016.05.29-21.38.28:348][905]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Home.Home:PersistentLevel.HouseTrimming40.StaticMeshComponent0 HouseTrimming'.
+[2016.05.29-21.38.28:679][936]PIE:Warning: Warning Scale ''X=0.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Home.Home:PersistentLevel.HouseTrimming40.StaticMeshComponent0 HouseTrimming'.
+[2016.05.29-21.38.42:593][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming38)
+[2016.05.29-21.39.14:684][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming40)
+[2016.05.29-21.39.32:903][804]Cmd: MODE SCALEGRID=0
+[2016.05.29-21.39.42:475][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming42)
+[2016.05.29-21.39.43:602][833]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming41)
+[2016.05.29-21.39.44:524][916]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming43)
+[2016.05.29-21.40.20:936][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming28)
+[2016.05.29-21.41.28:970][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming23)
+[2016.05.29-21.42.03:943][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming44)
+[2016.05.29-21.42.29:500][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming47)
+[2016.05.29-21.42.31:125][561]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming46)
+[2016.05.29-21.42.32:489][686]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming45)
+[2016.05.29-21.42.48:709][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming44)
+[2016.05.29-21.44.07:659][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming20)
+[2016.05.29-21.45.44:501][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming50)
+[2016.05.29-21.45.46:016][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming50)
+[2016.05.29-21.46.05:078][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming51)
+[2016.05.29-21.46.15:164][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming49)
+[2016.05.29-21.47.17:298][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming49)
+[2016.05.29-21.48.04:018][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming40)
+[2016.05.29-21.48.38:401][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming55)
+[2016.05.29-21.49.18:426][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming44)
+[2016.05.29-21.50.45:112][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming59)
+[2016.05.29-21.51.50:382][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming56)
+[2016.05.29-21.53.08:876][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming61)
+[2016.05.29-21.53.34:874][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-21.53.35:293][910]LogSavePackage: Save=371.500122ms
+[2016.05.29-21.53.35:294][910]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto7E54215174E43D5EBCCAD018A917DDD36.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto7.umap'
+[2016.05.29-21.53.35:295][910]LogSavePackage: Total save time: 419.734914ms
+[2016.05.29-21.53.35:295][910]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto7.umap
+[2016.05.29-21.53.35:297][910]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.458
+[2016.05.29-21.53.35:297][910]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.458
+[2016.05.29-21.54.06:859][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming63)
+[2016.05.29-21.54.16:889][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming64)
+[2016.05.29-21.54.19:146][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming63)
+[2016.05.29-21.54.36:718][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming64)
+[2016.05.29-21.54.43:438][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming63)
+[2016.05.29-21.54.46:992][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming64)
+[2016.05.29-21.54.52:165][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming63)
+[2016.05.29-21.54.59:716][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming64)
+[2016.05.29-21.55.28:632][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming64)
+[2016.05.29-21.55.56:514][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-21.55.57:081][240]LogSavePackage: Save=532.747803ms
+[2016.05.29-21.55.57:081][240]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home1A835926470DC9997169E9A153466002.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-21.55.57:098][240]LogSavePackage: Total save time: 555.347808ms
+[2016.05.29-21.55.57:098][240]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-21.55.57:178][240]LogFileHelpers: Saving map 'Home' took 1.795
+[2016.05.29-21.55.57:628][240]LogSavePackage: Save=325.590057ms
+[2016.05.29-21.55.57:628][240]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/HouseTrimming19C613C14A41A4EFDC1E4A9D05CEC363.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/StarterContent/Architecture/HouseTrimming.uasset'
+[2016.05.29-21.55.57:630][240]LogSavePackage: Total save time: 328.185670ms
+[2016.05.29-21.55.57:631][240]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/StarterContent/Architecture/HouseTrimming.uasset
+[2016.05.29-22.01.43:350][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame9)
+[2016.05.29-22.01.44:171][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming65)
+[2016.05.29-22.01.49:170][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame9)
+[2016.05.29-22.01.49:786][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming65)
+[2016.05.29-22.02.17:566][445]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-22.02.21:090][762]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.05.29-22.02.22:020][851]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight19)
+[2016.05.29-22.02.22:958][934]Cmd: DELETE
+[2016.05.29-22.02.22:958][934]Cmd: ACTOR DELETE
+[2016.05.29-22.02.22:960][934]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.02.22:984][934]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2016.05.29-22.02.32:065][977]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-22.03.22:997][925]LogEditorViewport: Clicking Background
+[2016.05.29-22.06.05:350][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming15)
+[2016.05.29-22.06.06:154][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming16)
+[2016.05.29-22.06.07:222][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming17)
+[2016.05.29-22.06.38:667][574]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight20)
+[2016.05.29-22.06.40:015][692]Cmd: DELETE
+[2016.05.29-22.06.40:015][692]Cmd: ACTOR DELETE
+[2016.05.29-22.06.40:016][692]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.06.40:211][692]LogEditorActor: Deleted 1 Actors (0.196 secs)
+[2016.05.29-22.06.42:412][925]Cmd: TRANSACTION UNDO
+[2016.05.29-22.06.42:412][925]LogEditorTransaction: Undo Delete Actors
+[2016.05.29-22.08.09:157][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-22.08.09:798][854]LogSavePackage: Save=608.507263ms
+[2016.05.29-22.08.09:798][854]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto8079C68D047B8C6383E0E25B4F61F340C.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto8.umap'
+[2016.05.29-22.08.09:800][854]LogSavePackage: Total save time: 640.895072ms
+[2016.05.29-22.08.09:800][854]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto8.umap
+[2016.05.29-22.08.09:802][854]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.672
+[2016.05.29-22.08.09:802][854]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.672
+[2016.05.29-22.09.39:636][596]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2016.05.29-22.10.02:032][657]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2016.05.29-22.10.09:459][334]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight11)
+[2016.05.29-22.10.16:203][941]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2016.05.29-22.10.23:599][580]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight11)
+[2016.05.29-22.10.25:260][728]Cmd: DELETE
+[2016.05.29-22.10.25:260][728]Cmd: ACTOR DELETE
+[2016.05.29-22.10.25:261][728]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.10.25:284][728]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2016.05.29-22.10.26:911][883]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2016.05.29-22.10.27:130][898]Cmd: DELETE
+[2016.05.29-22.10.27:130][898]Cmd: ACTOR DELETE
+[2016.05.29-22.10.27:132][898]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.10.27:158][898]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2016.05.29-22.10.28:073][991]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.05.29-22.10.28:471][ 25]Cmd: DELETE
+[2016.05.29-22.10.28:471][ 25]Cmd: ACTOR DELETE
+[2016.05.29-22.10.28:472][ 25]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.10.28:495][ 25]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2016.05.29-22.10.29:697][148]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2016.05.29-22.11.57:582][210]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2016.05.29-22.11.58:892][327]Cmd: DELETE
+[2016.05.29-22.11.58:892][327]Cmd: ACTOR DELETE
+[2016.05.29-22.11.58:893][327]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.11.58:921][327]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2016.05.29-22.11.59:566][392]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.05.29-22.12.25:606][933]Cmd: EDIT COPY
+[2016.05.29-22.12.25:822][947]Cmd: EDIT PASTE
+[2016.05.29-22.12.35:822][907]LogEditorViewport: Clicking Background
+[2016.05.29-22.12.41:621][443]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.05.29-22.12.49:540][186]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.05.29-22.13.08:165][694]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.05.29-22.13.32:660][708]LogEditorViewport: Clicking Background
+[2016.05.29-22.13.40:565][502]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.05.29-22.13.41:556][598]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.05.29-22.13.44:254][841]LogEditorViewport: Clicking Background
+[2016.05.29-22.13.50:586][242]LogActorFactory: Actor Factory created MaterialSphere
+[2016.05.29-22.13.52:023][381]LogActorFactory: Actor Factory created MaterialSphere
+[2016.05.29-22.14.12:396][142]Cmd: DELETE
+[2016.05.29-22.14.12:397][142]Cmd: ACTOR DELETE
+[2016.05.29-22.14.12:398][142]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.05.29-22.14.12:429][142]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2016.05.29-22.15.13:676][616]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.29-22.15.20:258][616]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.2440 seconds. Added 107 classes and 0 folders.
+[2016.05.29-22.16.25:084][201]LogEditorActor: Deleted Actor: AudioVolume
+[2016.05.29-22.16.25:150][201]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001B62519E0
+[2016.05.29-22.16.25:370][201]LogEditorActor: Deleted 1 Actors (0.286 secs)
+[2016.05.29-22.16.31:982][803]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2016.05.29-22.16.38:260][364]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.05.29-22.16.38:912][417]Cmd: DELETE
+[2016.05.29-22.16.38:912][417]Cmd: ACTOR DELETE
+[2016.05.29-22.16.38:914][417]LogEditorActor: Deleted Actor: SpotLight
+[2016.05.29-22.16.38:961][417]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2016.05.29-22.16.39:627][484]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.05.29-22.16.53:731][725]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.05.29-22.16.58:561][155]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.05.29-22.16.58:868][182]Cmd: DELETE
+[2016.05.29-22.16.58:868][182]Cmd: ACTOR DELETE
+[2016.05.29-22.16.58:870][182]LogEditorActor: Deleted Actor: SpotLight
+[2016.05.29-22.16.58:914][182]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2016.05.29-22.17.00:972][369]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.05.29-22.17.21:944][342]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2016.05.29-22.17.50:147][764]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2016.05.29-22.18.31:200][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-22.18.33:729][511]LogSavePackage: Save=2520.002686ms
+[2016.05.29-22.18.33:729][511]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto90D99E7B04F04F09CE1B42B8677349765.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto9.umap'
+[2016.05.29-22.18.33:730][511]LogSavePackage: Total save time: 2529.277340ms
+[2016.05.29-22.18.33:730][511]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto9.umap
+[2016.05.29-22.18.33:732][511]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 2.577
+[2016.05.29-22.18.33:732][511]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.577
+[2016.05.29-22.19.51:211][ 17]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2016.05.29-22.20.07:945][418]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight15)
+[2016.05.29-22.20.08:331][448]Cmd: DELETE
+[2016.05.29-22.20.08:331][448]Cmd: ACTOR DELETE
+[2016.05.29-22.20.08:333][448]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.20.08:378][448]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2016.05.29-22.20.09:058][510]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight20)
+[2016.05.29-22.20.09:750][569]Cmd: DELETE
+[2016.05.29-22.20.09:750][569]Cmd: ACTOR DELETE
+[2016.05.29-22.20.09:752][569]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.20.09:793][569]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2016.05.29-22.20.10:444][634]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight16)
+[2016.05.29-22.20.10:728][656]Cmd: DELETE
+[2016.05.29-22.20.10:728][656]Cmd: ACTOR DELETE
+[2016.05.29-22.20.10:729][656]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.20.10:767][656]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2016.05.29-22.20.11:747][756]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight14)
+[2016.05.29-22.20.11:819][759]Cmd: DELETE
+[2016.05.29-22.20.11:819][759]Cmd: ACTOR DELETE
+[2016.05.29-22.20.11:821][759]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.20.11:857][759]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2016.05.29-22.20.16:260][168]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2016.05.29-22.20.36:388][  7]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2016.05.29-22.20.36:803][ 44]Cmd: DELETE
+[2016.05.29-22.20.36:803][ 44]Cmd: ACTOR DELETE
+[2016.05.29-22.20.36:805][ 44]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.20.36:844][ 44]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2016.05.29-22.20.37:778][143]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2016.05.29-22.20.52:017][274]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight17)
+[2016.05.29-22.20.53:050][343]Cmd: DELETE
+[2016.05.29-22.20.53:050][343]Cmd: ACTOR DELETE
+[2016.05.29-22.20.53:052][343]LogEditorActor: Deleted Actor: PointLight
+[2016.05.29-22.20.53:101][343]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2016.05.29-22.20.56:738][586]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight22)
+[2016.05.29-22.21.32:760][974]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.05.29-22.22.28:326][148]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.05.29-22.22.49:222][725]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.29-22.25.35:453][ 23]LogEditorViewport: Clicking Background
+[2016.05.29-22.25.36:027][ 87]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.05.29-22.25.42:643][674]LogActorFactory: Actor Factory created Sphere
+[2016.05.29-22.25.43:092][704]LogActorFactory: Actor Factory created Sphere
+[2016.05.29-22.26.22:746][596]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.26.39:191][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Metal_Gold2" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset" SILENT=true
+[2016.05.29-22.26.39:281][965]LogSavePackage: Save=76.036583ms
+[2016.05.29-22.26.39:281][965]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/M_Metal_Gold2A8C42F54488F618C7AA8E288E7DEEA7E.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset'
+[2016.05.29-22.26.39:284][965]LogSavePackage: Total save time: 78.989837ms
+[2016.05.29-22.26.39:284][965]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset
+[2016.05.29-22.26.46:063][341]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.26.46:780][341]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.26.46:788][341]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.26.46:825][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_47, compiling. 
+[2016.05.29-22.26.46:848][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_46, compiling. 
+[2016.05.29-22.26.46:866][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_49, compiling. 
+[2016.05.29-22.26.46:888][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_50, compiling. 
+[2016.05.29-22.26.46:907][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_51, compiling. 
+[2016.05.29-22.26.46:941][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_18, compiling. 
+[2016.05.29-22.26.49:127][387]MaterialEditorStats: Info Base pass shader with static lighting: 89 instructions
+[2016.05.29-22.26.49:127][387]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.29-22.26.49:127][387]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.29-22.26.49:127][387]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.29-22.27.05:667][369]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.05:751][369]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.05:768][369]LogMaterial: 0.000276 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.27.06:114][381]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2016.05.29-22.27.06:114][381]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.29-22.27.06:114][381]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.29-22.27.13:704][796]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.13:780][796]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.13:791][796]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.27.16:743][916]MaterialEditorStats: Info Base pass shader with static lighting: 89 instructions
+[2016.05.29-22.27.16:743][916]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.29-22.27.16:743][916]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.29-22.27.16:743][916]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.29-22.27.41:620][141]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.41:628][141]LogMaterial: 0.000184 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.27.41:649][141]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.41:657][141]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.27.45:052][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVertexColor_0, compiling. 
+[2016.05.29-22.27.45:293][299]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2016.05.29-22.27.45:293][299]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.05.29-22.27.45:293][299]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2016.05.29-22.27.45:293][299]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.29-22.27.52:277][704]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.52:321][704]LogMaterial: 0.000172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.27.52:362][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVertexColor_0, compiling. 
+[2016.05.29-22.27.54:346][788]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.54:410][788]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.27.57:244][898]MaterialEditorStats: Info Base pass shader with static lighting: 89 instructions
+[2016.05.29-22.27.57:244][898]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.29-22.27.57:244][898]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.29-22.27.57:244][898]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.29-22.27.59:622][ 31]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.27.59:630][ 31]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.28.02:190][122]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2016.05.29-22.28.02:190][122]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.05.29-22.28.02:190][122]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.29-22.28.02:190][122]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.29-22.28.02:879][165]LogMaterialEditor: Saving and Compiling material M_Metal_Gold2
+[2016.05.29-22.28.07:052][165]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.28.07:080][165]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.28.07:166][165]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.28.07:317][165]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.28.07:365][165]LogMaterial: 0.002411 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.28.20:212][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Metal_Gold2" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset" SILENT=true
+[2016.05.29-22.28.20:240][165]LogSavePackage: Save=20.906010ms
+[2016.05.29-22.28.20:240][165]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/M_Metal_Gold23DBC0F8643DC5E5352DD19A7F40FE4D1.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset'
+[2016.05.29-22.28.20:242][165]LogSavePackage: Total save time: 28.962452ms
+[2016.05.29-22.28.20:242][165]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset
+[2016.05.29-22.28.20:249][165]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.29-22.28.20:249][165]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2016.05.29-22.28.20:249][165]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.29-22.28.20:249][165]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.05.29-22.28.27:044][512]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.28.27:052][512]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.28.27:956][548]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.28.27:967][548]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.28.31:025][684]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2016.05.29-22.28.31:025][684]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.05.29-22.28.31:025][684]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.29-22.28.31:025][684]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.29-22.28.32:825][777]LogMaterialEditor: Saving and Compiling material M_Metal_Gold2
+[2016.05.29-22.28.33:695][777]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.28.33:726][777]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.28.33:787][777]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.28.33:898][777]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.28.33:949][777]LogMaterial: 0.002332 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.28.47:323][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Metal_Gold2" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset" SILENT=true
+[2016.05.29-22.28.47:347][777]LogSavePackage: Save=17.903933ms
+[2016.05.29-22.28.47:347][777]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/M_Metal_Gold2161056CC42CCA1819581EB80EF421EFD.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset'
+[2016.05.29-22.28.47:349][777]LogSavePackage: Total save time: 24.991609ms
+[2016.05.29-22.28.47:349][777]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/M_Metal_Gold2.uasset
+[2016.05.29-22.28.47:353][777]MaterialEditorStats: Info Base pass shader with static lighting: 113 instructions
+[2016.05.29-22.28.47:353][777]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2016.05.29-22.28.47:353][777]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.29-22.28.47:353][777]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.05.29-22.30.03:306][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.05.29-22.30.09:821][  6]LogEditorViewport: Clicking Background
+[2016.05.29-22.30.38:791][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.29-22.30.39:163][856]LogSavePackage: Save=358.592407ms
+[2016.05.29-22.30.39:163][856]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto044AAFF3D446675563751319C41A4F7DA.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto0.umap'
+[2016.05.29-22.30.39:165][856]LogSavePackage: Total save time: 372.657046ms
+[2016.05.29-22.30.39:165][856]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto0.umap
+[2016.05.29-22.30.39:167][856]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 0.422
+[2016.05.29-22.30.39:167][856]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.422
+[2016.05.29-22.30.39:177][856]LogSavePackage: Save=1.430909ms
+[2016.05.29-22.30.39:177][856]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/M_Metal_Gold2_Auto030C10AFA41B57BEFB17677A5C821D307.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/StarterContent/Materials/M_Metal_Gold2_Auto0.uasset'
+[2016.05.29-22.30.39:179][856]LogSavePackage: Total save time: 3.048725ms
+[2016.05.29-22.30.39:179][856]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/StarterContent/Materials/M_Metal_Gold2_Auto0.uasset
+[2016.05.29-22.30.39:179][856]LogFileHelpers: Auto-saving content packages took 0.010
+[2016.05.29-22.31.10:276][849]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.05.29-22.31.10:330][849]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2016.05.29-22.31.12:370][  9]Cmd: TRANSACTION UNDO
+[2016.05.29-22.31.12:370][  9]LogEditorTransaction: Undo Delete selection
+[2016.05.29-22.31.12:425][  9]LogMaterial: Missing cached shader map for material M_Metal_Gold2, compiling. 
+[2016.05.29-22.31.12:435][  9]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.29-22.31.13:476][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.05.29-22.31.14:473][118]Cmd: DELETE
+[2016.05.29-22.31.14:473][118]Cmd: ACTOR DELETE
+[2016.05.29-22.31.14:475][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.05.29-22.31.14:563][118]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2016.05.29-22.31.17:754][289]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2016.05.29-22.31.17:754][289]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.05.29-22.31.17:754][289]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.29-22.31.17:754][289]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.29-22.31.34:469][444]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.29-22.32.31:065][161]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.05.29-22.33.47:126][180]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.29-22.34.39:775][678]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.05.29-22.34.47:796][204]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.29-22.34.51:151][451]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.29-22.34.51:630][484]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.05.29-22.34.54:776][712]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.29-22.35.07:582][694]LogTexture:Display: Building textures: Texture2D_3 (G8)
+[2016.05.29-22.35.09:127][807]LogEditorSelectUtils:Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2016.05.29-22.35.09:141][807]LogActorComponent: RegisterComponentWithWorld: (/Game/Home.Home:PersistentLevel.Landscape_4.RootComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2016.05.29-22.35.09:141][807]LogEditorSelectUtils:Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2016.05.29-22.37.01:208][575]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2016.05.29-22.37.01:251][575]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2016.05.29-22.37.01:310][575]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2016.05.29-22.37.01:337][575]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2016.05.29-22.37.01:371][575]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2016.05.29-22.37.01:392][575]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2016.05.29-22.37.01:434][575]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.05.29-22.37.01:449][575]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2016.05.29-22.37.01:499][575]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2016.05.29-22.37.01:564][575]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2016.05.29-22.37.01:604][575]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2016.05.29-22.37.01:649][575]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2016.05.29-22.37.01:692][575]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2016.05.29-22.37.01:733][575]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2016.05.29-22.37.01:882][575]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2016.05.29-22.37.02:009][575]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2016.05.29-22.37.02:635][575]Cmd: UpdateLandscapeEditorData
+[2016.05.29-22.39.04:834][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-22.39.56:118][594]LogSavePackage: Save=51230.359375ms
+[2016.05.29-22.39.56:118][594]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home53201F074067995F326067AAD9AAD930.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
+[2016.05.29-22.39.56:122][594]LogSavePackage: Total save time: 51243.021868ms
+[2016.05.29-22.39.56:122][594]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
+[2016.05.29-22.39.56:158][594]LogFileHelpers: Saving map 'Home' took 66.305
+[2016.05.29-22.39.56:175][594]LogSavePackage: Save=1.876571ms
+[2016.05.29-22.39.56:175][594]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/M_Metal_Gold2F2C86E3B4FB55BCB1C636D8377B7FD6C.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/StarterContent/Materials/M_Metal_Gold2.uasset'
+[2016.05.29-22.39.56:180][594]LogSavePackage: Total save time: 7.224828ms
+[2016.05.29-22.39.56:180][594]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/StarterContent/Materials/M_Metal_Gold2.uasset
+[2016.05.29-22.40.21:246][595]LogCrashTracker: 
+
+
+[2016.05.29-22.40.21:342][595]LogCrashTracker: 
+
+
+[2016.05.29-22.40.21:342][595]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2016.05.29-22.40.21:590][595]LogExit: Executing StaticShutdownAfterError
+[2016.05.29-22.40.29:092][595]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.29-22.40.29:314][595]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.29-22.40.29:323][595]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.29-22.40.29:323][595]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.29-22.40.29:575][595]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.05.29-22.40.29:688][595]Log file closed, 05/29/16 18:40:29
