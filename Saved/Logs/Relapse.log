@@ -1,946 +1,180 @@
-﻿[2016.05.29-22.48.33:639][  0]Log file open, 05/29/16 18:48:33
-[2016.05.29-22.48.33:639][  0]LogInit:Display: Running engine for game: Relapse
-[2016.05.29-22.48.33:639][  0]LogInit:Display: RandInit(-1460383576) SRandInit(-1460383575).
-[2016.05.29-22.48.33:639][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2016.05.29-22.48.33:639][  0]LogStats: Stats thread started at 0.075292
-[2016.05.29-22.48.33:639][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.05.29-22.48.33:639][  0]LogInit: API Version: 2672455
-[2016.05.29-22.48.33:639][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2016.05.29-22.48.33:639][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2016.05.29-22.48.33:639][  0]LogInit: Build Configuration: Development
-[2016.05.29-22.48.33:639][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2016.05.29-22.48.33:639][  0]LogInit: Command line: -EpicPortal 
-[2016.05.29-22.48.33:639][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2016.05.29-22.48.33:639][  0]LogInit: Rocket: 1
-[2016.05.29-22.48.33:650][  0]LogInit: Using libcurl 7.41.0
-[2016.05.29-22.48.33:650][  0]LogInit:  - built for x86_64-pc-win32
-[2016.05.29-22.48.33:650][  0]LogInit:  - supports SSL with WinSSL
-[2016.05.29-22.48.33:650][  0]LogInit:  - other features:
-[2016.05.29-22.48.33:650][  0]LogInit:      CURL_VERSION_SSL
-[2016.05.29-22.48.33:650][  0]LogInit:      CURL_VERSION_IPV6
-[2016.05.29-22.48.33:650][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.05.29-22.48.33:650][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.05.29-22.48.33:650][  0]LogInit:      CURL_VERSION_IDN
-[2016.05.29-22.48.33:650][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.05.29-22.48.33:650][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.05.29-22.48.33:650][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.05.29-22.48.33:650][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.05.29-22.48.33:650][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.05.29-22.48.33:660][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.05.29-22.48.33:668][  0]LogInit: Object subsystem initialized
-[2016.05.29-22.48.33:670][  0]LogInit: Selected Device Profile: [Windows]
-[2016.05.29-22.48.33:670][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.05.29-22.48.33:680][  0]LogInit: Computer: KAITLYN-PC
-[2016.05.29-22.48.33:680][  0]LogInit: User: Kaitlyn
-[2016.05.29-22.48.33:680][  0]LogInit: CPU Page size=4096, Cores=2
-[2016.05.29-22.48.33:680][  0]LogInit: High frequency timer resolution =3.215439 MHz
-[2016.05.29-22.48.33:680][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.05.29-22.48.33:680][  0]LogMemory: Platform Memory Stats for Windows
-[2016.05.29-22.48.33:680][  0]LogMemory: Process Physical Memory: 54.12 MB used, 54.12 MB peak
-[2016.05.29-22.48.33:680][  0]LogMemory: Process Virtual Memory: 58.66 MB used, 58.66 MB peak
-[2016.05.29-22.48.33:680][  0]LogMemory: Physical Memory: 3525.02 MB used, 8087.19 MB total
-[2016.05.29-22.48.33:680][  0]LogMemory: Virtual Memory: 340.45 MB used, 8388608.00 MB total
-[2016.05.29-22.48.33:726][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.05.29-22.48.34:674][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 645 (Feature Level 11_0)
-[2016.05.29-22.48.34:674][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
-[2016.05.29-22.48.34:702][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 645 (Feature Level 11_0)
-[2016.05.29-22.48.34:702][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 0 output[s]
-[2016.05.29-22.48.34:702][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.05.29-22.48.34:710][  0]LogD3D11RHI: !Direct3DDevice
-[2016.05.29-22.48.34:710][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
-[2016.05.29-22.48.34:722][  0]LogD3D11RHI: Async texture creation enabled
-[2016.05.29-22.48.34:729][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Intermediate/Shaders/WorkingDirectory/13144/).
-[2016.05.29-22.48.34:730][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Intermediate/Shaders/tmp/5380E7CE46E14424114F2FA74D1F26D2/'.
-[2016.05.29-22.48.34:730][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.05.29-22.48.36:706][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.05.29-22.48.36:713][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.05.29-22.48.36:720][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.05.29-22.48.36:726][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.05.29-22.48.36:732][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.05.29-22.48.36:737][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.05.29-22.48.36:741][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.05.29-22.48.36:745][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.05.29-22.48.36:750][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.05.29-22.48.36:754][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.05.29-22.48.36:758][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.05.29-22.48.36:763][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.05.29-22.48.36:764][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.05.29-22.48.36:782][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.05.29-22.48.36:786][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.05.29-22.48.36:790][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.05.29-22.48.36:794][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.05.29-22.48.36:794][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.05.29-22.48.36:906][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.05.29-22.48.36:949][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.05.29-22.48.36:949][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2016.05.29-22.48.36:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.05.29-22.48.36:949][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.05.29-22.48.36:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.05.29-22.48.36:949][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.05.29-22.48.37:114][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.05.29-22.48.37:125][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kaitlyn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.05.29-22.48.37:348][  0]LogInit: Selected Device Profile: [Windows]
-[2016.05.29-22.48.37:349][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.05.29-22.48.37:380][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.05.29-22.48.37:380][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.05.29-22.48.37:791][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.05.29-22.48.38:712][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.05.29-22.48.38:817][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
-[2016.05.29-22.48.39:044][  0]SourceControl: Info Source control is disabled
-[2016.05.29-22.48.39:045][  0]SourceControl: Info Source control is disabled
-[2016.05.29-22.48.39:061][  0]SourceControl: Info Source control is disabled
-[2016.05.29-22.48.39:078][  0]SourceControl: Info Source control is disabled
-[2016.05.29-22.48.39:325][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.05.29-22.48.39:432][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2016.05.29-22.48.39:432][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
-[2016.05.29-22.48.39:495][  0]LogEngine: Initializing Engine...
-[2016.05.29-22.48.39:499][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2016.05.29-22.48.39:511][  0]LogHMD: SteamVR failed to initialize.  Err: 108
-[2016.05.29-22.48.39:661][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.05.29-22.48.39:666][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.29-22.48.39:684][  0]LogInit: FAudioDevice initialized.
-[2016.05.29-22.48.39:759][  0]LogDerivedDataCache: Saved boot cache 0.08s 41MB C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.05.29-22.48.39:762][  0]LogInit: Texture streaming: Enabled
-[2016.05.29-22.48.39:769][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.05.29-22.48.39:769][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.05.29-22.48.39:770][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 81165e594baac42afe9f2b865a2ff1ad|abd8b3a12bc040f2a254594f876f7354|be1c684a-7263-42c4-b8f9-70bec544cc39
-[2016.05.29-22.48.39:770][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.05.29-22.48.40:491][  0]LogInit: Transaction tracking system initialized
-[2016.05.29-22.48.40:533][  0]BlueprintLog: New page: Editor Load
-[2016.05.29-22.48.40:651][  0]LocalizationService: Info Localization service is disabled
-[2016.05.29-22.48.40:749][  0]LogConsoleResponse:Display: 
-[2016.05.29-22.48.40:908][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.05.29-22.48.41:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/' took 0.01s
-[2016.05.29-22.48.41:004][  0]SourceControl: Info Source control is disabled
-[2016.05.29-22.48.41:005][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.05.29-22.48.41:006][  0]LightingResults: New page: Lighting Build
-[2016.05.29-22.48.41:011][  0]MapCheck: New page: Map Check
-[2016.05.29-22.48.41:011][  0]LightingResults: New page: Lighting Build
-[2016.05.29-22.48.41:038][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023F7E160
-[2016.05.29-22.48.42:311][  0]LogAIModule: Creating AISystem for world Home
-[2016.05.29-22.48.43:890][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.05.29-22.48.43:891][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.05.29-22.48.44:067][  0]MapCheck:Warning: Warning Landscape_0 Landscape /Game/Home.Home:PersistentLevel.Landscape_0 : Externally referenced 
-[2016.05.29-22.48.44:067][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:067][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming10.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:067][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming11.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:067][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming12.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming13.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming14.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming15.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming16.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming17.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming18.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming19.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming2.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming20.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming21.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:068][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming22.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming23.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming24.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming25.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming26.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming27.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming28.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming29.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming3.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming30.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:069][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming31.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming32.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming33.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming34.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming35.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming36.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming37.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming38.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming39.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming4.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:070][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming40.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming41.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming42.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming43.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming44.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming45.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming46.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming47.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming48.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming49.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:071][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming5.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming50.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming51.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming52.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming53.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming54.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming55.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming56.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming57.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming58.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:072][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming59.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming6.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming60.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming61.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming62.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming63.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming64.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming65.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming7.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming8.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:073][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.HouseTrimming9.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame2.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame3.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame4.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame5.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame6.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame7.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame8.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame9.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:074][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Home.Home:PersistentLevel.SM_DoorFrame_8.StaticMeshComponent0 : Externally referenced 
-[2016.05.29-22.48.44:075][  0]MapCheck:Warning: Warning AbstractNavData-Default AbstractNavData /Game/Home.Home:PersistentLevel.AbstractNavData-Default : Externally referenced 
-[2016.05.29-22.48.44:075][  0]MapCheck: Info Map check complete: 0 Error(s), 76 Warning(s), took 183.441ms to complete.
-[2016.05.29-22.48.44:088][  0]LogFileHelpers: Loading map 'Home' took 3.084
-[2016.05.29-22.48.44:238][  0]LogCollectionManager: Loaded 0 collections in 0.004810 seconds
-[2016.05.29-22.48.44:285][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Collections/' took 0.01s
-[2016.05.29-22.48.44:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Developers/Kaitlyn/Collections/' took 0.01s
-[2016.05.29-22.48.44:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Collections/' took 0.01s
-[2016.05.29-22.48.44:286][  0]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 1867 classes and 333 folders.
-[2016.05.29-22.48.44:296][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.05.29-22.48.44:311][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2016.05.29-22.48.44:406][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.05.29-22.48.44:415][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2016.05.29-22.48.44:480][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.05.29-22.48.44:484][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.05.29-22.48.44:507][  0]LogLoad: Full Startup: 11.48 seconds (BP compile: 0.08 seconds)
-[2016.05.29-22.48.44:650][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.05.29-22.48.44:863][  0]LogRenderer: Reallocating scene render targets to support 748x176 (Frame:2).
-[2016.05.29-22.48.44:982][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2016.05.29-22.48.45:178][  4]LogAssetRegistry: Asset discovery search completed in 6.3710 seconds
-[2016.05.29-22.48.45:178][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.05.29-22.48.45:178][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
-[2016.05.29-22.48.48:758][268]LogRenderer: Reallocating scene render targets to support 748x384 (Frame:201).
-[2016.05.29-22.49.50:379][377]Cmd: DELETE
-[2016.05.29-22.49.50:379][377]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.49.50:379][377]LogGeometryMode:Warning: Unable to resolve BoxBrush4 Brush in new BSP, see above
-[2016.05.29-22.49.50:379][377]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.49.58:526][263]Cmd: DELETE
-[2016.05.29-22.49.58:527][263]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.49.58:527][263]LogGeometryMode:Warning: Unable to resolve BoxBrush4 Brush in new BSP, see above
-[2016.05.29-22.49.58:527][263]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.08:471][254]Cmd: DELETE
-[2016.05.29-22.50.08:493][254]Cmd: ACTOR DELETE
-[2016.05.29-22.50.08:498][254]LogEditorActor: Deleted Actor: Brush
-[2016.05.29-22.50.08:589][254]LogEditorActor: Deleted 1 Actors (0.096 secs)
-[2016.05.29-22.50.12:341][674]Cmd: TRANSACTION UNDO
-[2016.05.29-22.50.12:341][674]LogEditorTransaction: Undo Delete Actors
-[2016.05.29-22.50.12:358][674]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2016.05.29-22.50.16:213][  3]Cmd: DELETE
-[2016.05.29-22.50.16:214][  3]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.50.16:214][  3]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
-[2016.05.29-22.50.16:214][  3]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.18:778][245]Cmd: DELETE
-[2016.05.29-22.50.18:778][245]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.50.18:778][245]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
-[2016.05.29-22.50.18:778][245]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.24:248][773]Cmd: DELETE
-[2016.05.29-22.50.24:249][773]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.50.24:249][773]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
-[2016.05.29-22.50.24:249][773]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.25:845][947]Cmd: DELETE
-[2016.05.29-22.50.25:846][947]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.50.25:846][947]LogGeometryMode:Warning: Unable to resolve BoxBrush4 Brush in new BSP, see above
-[2016.05.29-22.50.25:846][947]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.28:106][181]Cmd: DELETE
-[2016.05.29-22.50.28:106][181]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.50.28:106][181]LogGeometryMode:Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
-[2016.05.29-22.50.28:106][181]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.29:596][339]Cmd: DELETE
-[2016.05.29-22.50.29:596][339]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.50.29:596][339]LogGeometryMode:Warning: Unable to resolve BoxBrush Brush in new BSP, see above
-[2016.05.29-22.50.29:597][339]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.32:569][646]Cmd: DELETE
-[2016.05.29-22.50.32:569][646]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.50.32:569][646]LogGeometryMode:Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
-[2016.05.29-22.50.32:569][646]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.38:410][269]Cmd: DELETE
-[2016.05.29-22.50.38:410][269]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.50.38:410][269]LogGeometryMode:Warning: Unable to resolve BoxBrush Brush in new BSP, see above
-[2016.05.29-22.50.38:410][269]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.50.57:336][374]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush12)
-[2016.05.29-22.51.02:695][983]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.02:695][983]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.02:874][998]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.02:874][998]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.03:032][  5]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.03:032][  5]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.03:184][ 12]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.03:184][ 12]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.03:339][ 21]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.03:340][ 21]LogEditorTransaction: Undo Clicking on Actors (double-click)
-[2016.05.29-22.51.03:498][ 34]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.03:498][ 34]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.03:654][ 48]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.03:654][ 48]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.03:798][ 61]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.03:798][ 61]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.03:977][ 77]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.03:977][ 77]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.04:134][ 92]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.04:134][ 92]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.04:295][107]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.04:295][107]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.04:442][120]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.04:442][120]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.04:598][135]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.04:598][135]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.04:762][150]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.04:763][150]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.04:924][165]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.04:924][165]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.04:936][165]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
-[2016.05.29-22.51.05:078][171]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.05:078][171]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.05:239][186]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.05:239][186]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.05:380][199]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.05:381][199]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.05:392][199]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
-[2016.05.29-22.51.05:393][199]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2016.05.29-22.51.05:547][203]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.05:547][203]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.05:703][217]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.05:703][217]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.05:862][231]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.05:863][231]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.05:874][231]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
-[2016.05.29-22.51.06:028][233]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.06:028][233]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.06:202][249]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.06:202][249]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.06:394][267]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.06:394][267]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.06:406][267]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
-[2016.05.29-22.51.06:407][267]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2016.05.29-22.51.06:556][277]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.06:556][277]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.06:730][292]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.06:730][292]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.06:891][307]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.06:891][307]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.06:903][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
-[2016.05.29-22.51.06:904][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2016.05.29-22.51.07:079][318]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.07:079][318]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.07:256][335]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.07:256][335]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.07:434][352]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.07:434][352]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.07:445][352]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
-[2016.05.29-22.51.07:446][352]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2016.05.29-22.51.07:611][362]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.07:611][362]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.07:788][377]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.07:788][377]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.07:804][377]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
-[2016.05.29-22.51.07:804][377]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2016.05.29-22.51.07:979][389]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.07:979][389]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.08:166][408]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.08:166][408]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.08:349][409]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.08:349][409]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.08:557][430]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.08:557][430]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.08:733][441]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.08:733][441]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.08:918][459]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.08:918][459]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.09:095][473]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.09:095][473]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.09:293][493]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.09:293][493]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.09:304][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
-[2016.05.29-22.51.09:306][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2016.05.29-22.51.09:462][506]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.09:462][506]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-22.51.09:623][520]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.09:624][520]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-22.51.20:583][797]Cmd: DELETE
-[2016.05.29-22.51.20:584][797]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.51.20:584][797]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
-[2016.05.29-22.51.20:584][797]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.51.31:173][883]Cmd: TRANSACTION UNDO
-[2016.05.29-22.51.31:173][883]LogEditorTransaction: Undo Modifier [Delete]
-[2016.05.29-22.51.40:879][805]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2016.05.29-22.52.22:911][187]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
-[2016.05.29-22.52.49:724][557]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
-[2016.05.29-22.53.36:650][183]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
-[2016.05.29-22.53.38:051][263]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
-[2016.05.29-22.53.43:709][596]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
-[2016.05.29-22.53.57:447][380]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
-[2016.05.29-22.54.15:854][273]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
-[2016.05.29-22.54.59:268][921]Cmd: DELETE
-[2016.05.29-22.54.59:268][921]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.54.59:268][921]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
-[2016.05.29-22.54.59:268][921]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.55.01:099][990]Cmd: DELETE
-[2016.05.29-22.55.01:100][990]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.55.01:100][990]LogGeometryMode:Warning: Unable to resolve BoxBrush4 Brush in new BSP, see above
-[2016.05.29-22.55.01:100][990]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.55.18:044][  0]Cmd: DELETE
-[2016.05.29-22.55.18:044][  0]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.55.18:044][  0]LogGeometryMode:Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
-[2016.05.29-22.55.18:044][  0]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.55.19:978][ 74]Cmd: DELETE
-[2016.05.29-22.55.19:978][ 74]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-22.55.19:978][ 74]LogGeometryMode:Warning: Unable to resolve BoxBrush Brush in new BSP, see above
-[2016.05.29-22.55.19:978][ 74]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-22.55.24:221][242]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2016.05.29-22.55.38:164][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-22.55.38:164][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.29-22.55.38:185][800]PIE: New page: PIE session: Home (May 29, 2016, 2:55:38 PM)
-[2016.05.29-22.55.38:185][800]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
-[2016.05.29-22.55.38:410][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.224574s)
-[2016.05.29-22.55.38:412][800]LogAIModule: Creating AISystem for world Home
-[2016.05.29-22.55.38:412][800]LogPlayLevel: PIE: World Init took: (0.001792s)
-[2016.05.29-22.55.38:412][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.226647s)
-[2016.05.29-22.55.38:457][800]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.29-22.55.38:477][800]LogInit: FAudioDevice initialized.
-[2016.05.29-22.55.38:567][800]LogWorld: Game class is 'GameMode'
-[2016.05.29-22.55.38:833][800]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-18.55.38
-[2016.05.29-22.55.38:833][800]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-22.55.38:834][800]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-22.55.38:836][800]LogWorld: Bringing up level for play took: 0.267697
-[2016.05.29-22.55.38:840][800]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home 1.259
-[2016.05.29-22.55.38:840][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-22.56.05:594][450]Set new viewmode: Wireframe
-[2016.05.29-22.56.07:766][688]Set new viewmode: Lit
-[2016.05.29-22.56.20:967][654]LogSelection:Warning: PIE object was selected: "Landscape /Game/UEDPIE_0_Home.Home:PersistentLevel.Landscape_0"
-[2016.05.29-22.56.23:317][716]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
-[2016.05.29-22.56.23:317][716]LogSelection:Warning: PIE object was selected: "DefaultPawn /Game/UEDPIE_0_Home.Home:PersistentLevel.DefaultPawn_0"
-[2016.05.29-22.56.30:265][915]LogEditorViewport: Clicking on Actor (context menu): DefaultPawn (DefaultPawn)
-[2016.05.29-22.56.48:530][236]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
-[2016.05.29-22.56.48:530][236]LogSelection:Warning: PIE object was selected: "DefaultPawn /Game/UEDPIE_0_Home.Home:PersistentLevel.DefaultPawn_0"
-[2016.05.29-22.58.18:327][153]LogEditorViewport: Clicking on Actor (context menu): DefaultPawn (DefaultPawn)
-[2016.05.29-22.59.48:542][447]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.05.29-22.59.49:142][447]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
-[2016.05.29-22.59.49:811][447]LogActor:Warning: GameNetworkManager /Engine/Transient.World_4:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-22.59.50:021][448]LogRenderer: Reallocating scene render targets to support 748x568 (Frame:40204).
-[2016.05.29-22.59.54:197][570]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-22.59.54:311][570]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-22.59.54:377][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038E922A0
-[2016.05.29-22.59.55:366][596]LogRenderer: Reallocating scene render targets to support 808x588 (Frame:40474).
-[2016.05.29-23.02.30:615][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.05.29-23.02.33:239][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
-[2016.05.29-23.02.33:239][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.05.29-23.02.33:284][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005CBB5F80
-[2016.05.29-23.02.33:286][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006CCB2AC0
-[2016.05.29-23.02.33:286][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000064E26B60
-[2016.05.29-23.02.35:087][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.05.29-23.04.43:117][232]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/FP_FirstPersonBP.upack)
-[2016.05.29-23.04.43:197][232]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2016.05.29-23.04.43:278][232]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/FirstPersonOverview.uasset" to "../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/FirstPersonBP/FirstPersonOverview.uasset"
-[2016.05.29-23.04.43:398][232]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" to "../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset"
-[2016.05.29-23.04.43:419][232]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" to "../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset"
-[2016.05.29-23.04.43:470][232]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" to "../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset"
-[2016.05.29-23.04.46:421][232]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" to "../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"
-[2016.05.29-23.04.46:486][232]LogSavePackage: Save=8.945590ms
-[2016.05.29-23.04.46:486][232]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/FirstPersonOverview929F2BE64FDF0ABD961AF69AD737315C.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/FirstPersonBP/FirstPersonOverview.uasset'
-[2016.05.29-23.04.46:490][232]LogSavePackage: Total save time: 20.618647ms
-[2016.05.29-23.04.46:490][232]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/FirstPersonBP/FirstPersonOverview.uasset
-[2016.05.29-23.04.50:106][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.05.29-23.04.52:279][243]LogSavePackage: Save=2155.607666ms
-[2016.05.29-23.04.52:279][243]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home_Auto1F30647E54B14026AF11154A35690F5CD.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto1.umap'
-[2016.05.29-23.04.52:283][243]LogSavePackage: Total save time: 2175.323185ms
-[2016.05.29-23.04.52:283][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/Home_Auto1.umap
-[2016.05.29-23.04.52:286][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Home' took 2.227
-[2016.05.29-23.04.52:286][243]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.227
-[2016.05.29-23.04.52:294][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameMode] ([1] browsable assets)...
-[2016.05.29-23.04.52:294][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameMode]
-[2016.05.29-23.04.52:294][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/GameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2016.05.29-23.04.52:314][243]LogSavePackage: Save=17.494656ms
-[2016.05.29-23.04.52:314][243]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/GameMode_Auto17CD854D54599544BCFDFCAA6EEEF1116.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/GameMode_Auto1.uasset'
-[2016.05.29-23.04.52:316][243]LogSavePackage: Total save time: 19.588307ms
-[2016.05.29-23.04.52:316][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Autosaves/Game/GameMode_Auto1.uasset
-[2016.05.29-23.04.52:316][243]LogFileHelpers: Auto-saving content packages took 0.028
-[2016.05.29-23.05.34:141][957]LogActor:Warning: GameNetworkManager /Engine/Transient.World_7:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.05.35:968][ 16]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.05.29-23.05.40:891][492]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.05.29-23.05.45:794][618]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.05.45:794][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.29-23.05.45:794][618]PIE: New page: PIE session: Home (May 29, 2016, 3:05:45 PM)
-[2016.05.29-23.05.45:794][618]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
-[2016.05.29-23.05.45:998][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.204134s)
-[2016.05.29-23.05.45:999][618]LogAIModule: Creating AISystem for world Home
-[2016.05.29-23.05.45:999][618]LogPlayLevel: PIE: World Init took: (0.000915s)
-[2016.05.29-23.05.45:999][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.205333s)
-[2016.05.29-23.05.46:059][618]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.29-23.05.46:078][618]LogInit: FAudioDevice initialized.
-[2016.05.29-23.05.46:116][618]LogWorld: Game class is 'GameMode'
-[2016.05.29-23.05.46:427][618]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-19.05.46
-[2016.05.29-23.05.46:428][618]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.05.46:428][618]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.05.46:432][618]LogWorld: Bringing up level for play took: 0.314467
-[2016.05.29-23.05.46:436][618]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home 0.839
-[2016.05.29-23.05.46:436][618]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.05.48:919][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.05.48:966][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.05.49:015][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B466CA0
-[2016.05.29-23.06.00:885][463]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.05.29-23.07.01:392][170]LogActor:Warning: GameNetworkManager /Engine/Transient.World_8:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.07.04:157][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.07.04:157][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.29-23.07.04:157][320]PIE: New page: PIE session: Home (May 29, 2016, 3:07:04 PM)
-[2016.05.29-23.07.04:158][320]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
-[2016.05.29-23.07.04:344][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186527s)
-[2016.05.29-23.07.04:345][320]LogAIModule: Creating AISystem for world Home
-[2016.05.29-23.07.04:345][320]LogPlayLevel: PIE: World Init took: (0.000881s)
-[2016.05.29-23.07.04:345][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.187660s)
-[2016.05.29-23.07.04:386][320]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006C75B740
-[2016.05.29-23.07.04:392][320]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.29-23.07.04:451][320]LogInit: FAudioDevice initialized.
-[2016.05.29-23.07.04:489][320]LogWorld: Game class is 'GameMode_C'
-[2016.05.29-23.07.04:783][320]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-19.07.04
-[2016.05.29-23.07.04:783][320]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.07.04:783][320]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.07.04:786][320]LogWorld: Bringing up level for play took: 0.295910
-[2016.05.29-23.07.04:790][320]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home 1.192
-[2016.05.29-23.07.04:790][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.07.19:408][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.07.19:457][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.07.19:508][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F3B9120
-[2016.05.29-23.07.24:012][420]Cmd: ACTOR SELECT ALL
-[2016.05.29-23.07.36:927][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.05.29-23.07.38:969][793]LogSavePackage: Save=1992.755005ms
-[2016.05.29-23.07.38:969][793]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/Home6EEE13304591C3DDF163C7B0E357ADF3.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
-[2016.05.29-23.07.38:980][793]LogSavePackage: Total save time: 2010.471042ms
-[2016.05.29-23.07.38:980][793]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
-[2016.05.29-23.07.39:059][793]LogFileHelpers: Saving map 'Home' took 3.776
-[2016.05.29-23.07.39:068][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/GameMode.uasset" SILENT=true
-[2016.05.29-23.07.39:090][793]LogSavePackage: Save=19.942533ms
-[2016.05.29-23.07.39:090][793]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/GameModeA295F2B442E6DD7932CF2C964F260499.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/GameMode.uasset'
-[2016.05.29-23.07.39:093][793]LogSavePackage: Total save time: 23.297597ms
-[2016.05.29-23.07.39:093][793]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/GameMode.uasset
-[2016.05.29-23.08.09:786][596]LogActorComponent: ReregisterComponent: (/Game/Home.Home:PersistentLevel.BoxBrush.BrushComponent0) Not currently registered. Aborting.
-[2016.05.29-23.08.21:441][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame8)
-[2016.05.29-23.08.37:887][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame8)
-[2016.05.29-23.08.40:546][313]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.40:546][313]LogEditorTransaction: Undo Move Actors
-[2016.05.29-23.08.40:896][327]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.40:896][327]LogEditorTransaction: Undo Clicking on Actors
-[2016.05.29-23.08.41:263][341]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.41:263][341]LogEditorTransaction: Undo Move Actors
-[2016.05.29-23.08.41:293][341]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
-[2016.05.29-23.08.41:599][351]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.41:599][351]LogEditorTransaction: Undo Move Actors
-[2016.05.29-23.08.41:626][351]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
-[2016.05.29-23.08.42:047][376]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.42:047][376]LogEditorTransaction: Undo Move Actors
-[2016.05.29-23.08.42:072][376]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
-[2016.05.29-23.08.42:549][390]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.42:549][390]LogEditorTransaction: Undo Select Brush Surface
-[2016.05.29-23.08.43:197][423]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.43:197][423]LogEditorTransaction: Undo Move Actors
-[2016.05.29-23.08.43:778][455]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.43:778][455]LogEditorTransaction: Undo Move Actors
-[2016.05.29-23.08.44:356][490]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.44:356][490]LogEditorTransaction: Undo Clicking on Actors
-[2016.05.29-23.08.44:970][523]Cmd: TRANSACTION UNDO
-[2016.05.29-23.08.44:970][523]LogEditorTransaction: Undo Set actor scale
-[2016.05.29-23.08.45:201][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
-[2016.05.29-23.08.45:203][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
-[2016.05.29-23.08.45:206][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight5_8.LightComponent0) Component already registered.
-[2016.05.29-23.08.45:211][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming31.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:212][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming27.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:212][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming41.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:213][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming37.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:214][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming13.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:215][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming23.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:216][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming19.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:217][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.SM_DoorFrame5.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:219][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.SM_DoorFrame3.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:220][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.SM_DoorFrame8.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:221][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming52.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:223][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming6.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:223][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.HouseTrimming55.StaticMeshComponent0) Component already registered.
-[2016.05.29-23.08.45:224][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight_1.BillboardComponent_0) Component already registered.
-[2016.05.29-23.08.45:226][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight22.BillboardComponent_14) Component already registered.
-[2016.05.29-23.08.45:226][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight8.BillboardComponent_4) Component already registered.
-[2016.05.29-23.08.45:226][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight7_37.BillboardComponent_10) Component already registered.
-[2016.05.29-23.08.45:226][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight6_18.BillboardComponent_7) Component already registered.
-[2016.05.29-23.08.45:226][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight5_8.BillboardComponent_3) Component already registered.
-[2016.05.29-23.08.45:226][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight3.BillboardComponent_2) Component already registered.
-[2016.05.29-23.08.45:226][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight2_4.BillboardComponent_1) Component already registered.
-[2016.05.29-23.08.45:227][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight23.BillboardComponent_15) Component already registered.
-[2016.05.29-23.08.45:227][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight21.BillboardComponent_13) Component already registered.
-[2016.05.29-23.08.45:227][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight20.BillboardComponent_12) Component already registered.
-[2016.05.29-23.08.45:227][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight19.BillboardComponent_11) Component already registered.
-[2016.05.29-23.08.45:227][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight18.BillboardComponent_8) Component already registered.
-[2016.05.29-23.08.45:227][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight13.BillboardComponent_6) Component already registered.
-[2016.05.29-23.08.45:227][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.PointLight12.BillboardComponent_5) Component already registered.
-[2016.05.29-23.08.45:227][523]LogActorComponent: ~FComponentReregisterContext: (/Game/Home.Home:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0) Component already registered.
-[2016.05.29-23.08.45:275][524]Cmd: UpdateLandscapeSetup
-[2016.05.29-23.08.47:985][612]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2016.05.29-23.08.49:868][679]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
-[2016.05.29-23.08.50:582][711]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
-[2016.05.29-23.08.51:060][732]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
-[2016.05.29-23.09.01:050][398]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush23)
-[2016.05.29-23.09.14:086][589]Cmd: TRANSACTION UNDO
-[2016.05.29-23.09.14:086][589]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-23.09.14:631][621]Cmd: TRANSACTION UNDO
-[2016.05.29-23.09.14:631][621]LogEditorTransaction: Undo Move Actors
-[2016.05.29-23.09.14:697][621]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-23.09.14:697][621]LogGeometryMode:Warning: Unable to resolve BoxBrush23 Brush in new BSP, see above
-[2016.05.29-23.09.14:697][621]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-23.09.15:094][655]Cmd: TRANSACTION UNDO
-[2016.05.29-23.09.15:094][655]LogEditorTransaction: Undo Move Actors
-[2016.05.29-23.09.15:156][655]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2016.05.29-23.09.15:156][655]LogGeometryMode:Warning: Unable to resolve BoxBrush23 Brush in new BSP, see above
-[2016.05.29-23.09.15:156][655]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2016.05.29-23.09.29:044][ 38]Cmd: TRANSACTION UNDO
-[2016.05.29-23.09.29:044][ 38]LogEditorTransaction: Undo Scale Actors
-[2016.05.29-23.09.31:342][229]Cmd: TRANSACTION UNDO
-[2016.05.29-23.09.31:342][229]LogEditorTransaction: Undo Scale Actors
-[2016.05.29-23.09.42:612][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame8)
-[2016.05.29-23.10.04:415][291]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.10.04:415][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.29-23.10.04:415][291]PIE: New page: PIE session: Home (May 29, 2016, 3:10:04 PM)
-[2016.05.29-23.10.04:415][291]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
-[2016.05.29-23.10.04:603][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.188460s)
-[2016.05.29-23.10.04:604][291]LogAIModule: Creating AISystem for world Home
-[2016.05.29-23.10.04:604][291]LogPlayLevel: PIE: World Init took: (0.001002s)
-[2016.05.29-23.10.04:605][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.189791s)
-[2016.05.29-23.10.04:652][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000104ED440
-[2016.05.29-23.10.04:676][291]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.29-23.10.04:704][291]LogInit: FAudioDevice initialized.
-[2016.05.29-23.10.04:738][291]LogWorld: Game class is 'GameMode_C'
-[2016.05.29-23.10.05:064][291]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-19.10.05
-[2016.05.29-23.10.05:064][291]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.10.05:064][291]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.10.05:067][291]LogWorld: Bringing up level for play took: 0.327584
-[2016.05.29-23.10.05:072][291]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home 1.468
-[2016.05.29-23.10.05:072][291]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.10.15:120][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.10.15:193][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.10.15:245][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006BAA7E20
-[2016.05.29-23.10.20:661][355]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush23)
-[2016.05.29-23.10.24:227][685]Cmd: TRANSACTION UNDO
-[2016.05.29-23.10.24:227][685]LogEditorTransaction: Undo Modifier [Edit]
-[2016.05.29-23.10.34:501][505]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2016.05.29-23.10.36:128][631]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush9)
-[2016.05.29-23.10.36:972][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame8)
-[2016.05.29-23.10.51:380][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.10.51:380][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.29-23.10.51:380][557]PIE: New page: PIE session: Home (May 29, 2016, 3:10:51 PM)
-[2016.05.29-23.10.51:380][557]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
-[2016.05.29-23.10.51:559][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178417s)
-[2016.05.29-23.10.51:559][557]LogAIModule: Creating AISystem for world Home
-[2016.05.29-23.10.51:560][557]LogPlayLevel: PIE: World Init took: (0.000821s)
-[2016.05.29-23.10.51:560][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.179504s)
-[2016.05.29-23.10.51:607][557]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.29-23.10.51:634][557]LogInit: FAudioDevice initialized.
-[2016.05.29-23.10.51:669][557]LogWorld: Game class is 'GameMode_C'
-[2016.05.29-23.10.51:953][557]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-19.10.51
-[2016.05.29-23.10.51:953][557]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.10.51:953][557]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.10.51:956][557]LogWorld: Bringing up level for play took: 0.286552
-[2016.05.29-23.10.51:960][557]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home 0.355
-[2016.05.29-23.10.51:960][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.10.51:978][558]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079465 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_2'
-[2016.05.29-23.10.56:050][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.10.56:124][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.10.56:175][843]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000651BA7A0
-[2016.05.29-23.11.00:918][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.11.00:918][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.29-23.11.00:918][136]PIE: New page: PIE session: Home (May 29, 2016, 3:11:00 PM)
-[2016.05.29-23.11.00:918][136]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
-[2016.05.29-23.11.01:094][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.175983s)
-[2016.05.29-23.11.01:095][136]LogAIModule: Creating AISystem for world Home
-[2016.05.29-23.11.01:096][136]LogPlayLevel: PIE: World Init took: (0.001005s)
-[2016.05.29-23.11.01:096][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.177246s)
-[2016.05.29-23.11.01:141][136]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.29-23.11.01:156][136]LogInit: FAudioDevice initialized.
-[2016.05.29-23.11.01:190][136]LogWorld: Game class is 'GameMode_C'
-[2016.05.29-23.11.01:463][136]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-19.11.01
-[2016.05.29-23.11.01:463][136]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.11.01:463][136]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.11.01:466][136]LogWorld: Bringing up level for play took: 0.275692
-[2016.05.29-23.11.01:471][136]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home -0.135
-[2016.05.29-23.11.01:471][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.11.10:805][805]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.11.10:882][805]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.11.10:971][806]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006BE807C0
-[2016.05.29-23.11.16:814][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.11.16:814][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.29-23.11.16:814][158]PIE: New page: PIE session: Home (May 29, 2016, 3:11:16 PM)
-[2016.05.29-23.11.16:814][158]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Home
-[2016.05.29-23.11.16:990][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176307s)
-[2016.05.29-23.11.16:991][158]LogAIModule: Creating AISystem for world Home
-[2016.05.29-23.11.16:991][158]LogPlayLevel: PIE: World Init took: (0.000794s)
-[2016.05.29-23.11.16:991][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Home.Home to /Game/UEDPIE_0_Home.Home (0.177368s)
-[2016.05.29-23.11.17:038][158]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.29-23.11.17:055][158]LogInit: FAudioDevice initialized.
-[2016.05.29-23.11.17:092][158]LogWorld: Game class is 'GameMode_C'
-[2016.05.29-23.11.17:367][158]LogWorld: Bringing World /Game/UEDPIE_0_Home.Home up for play (max tick rate 0) at 2016.05.29-19.11.17
-[2016.05.29-23.11.17:367][158]LogActor:Warning: GameSession /Game/UEDPIE_0_Home.Home:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.11.17:367][158]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Home.Home:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.05.29-23.11.17:370][158]LogWorld: Bringing up level for play took: 0.276560
-[2016.05.29-23.11.17:374][158]PIE: Info Play in editor start time for /Game/UEDPIE_0_Home -0.232
-[2016.05.29-23.11.17:374][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.11.21:505][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.11.21:582][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Home.Home:PersistentLevel' has LevelScriptBlueprint '/Game/Home.Home:PersistentLevel.Home' with GeneratedClass '/Game/Home.Home_C' with ClassGeneratedBy '/Game/Home.Home:PersistentLevel.Home'
-[2016.05.29-23.11.21:665][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006C5C9260
-[2016.05.29-23.11.27:236][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming19)
-[2016.05.29-23.11.40:622][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming16)
-[2016.05.29-23.11.46:461][ 15]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming17)
-[2016.05.29-23.11.48:325][125]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming15)
-[2016.05.29-23.11.57:907][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming19)
-[2016.05.29-23.12.03:184][141]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2016.05.29-23.12.09:050][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.12.22:747][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming14)
-[2016.05.29-23.12.23:705][613]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming13)
-[2016.05.29-23.12.24:685][682]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming12)
-[2016.05.29-23.12.30:475][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.12.34:955][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.12.39:780][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming12)
-[2016.05.29-23.12.44:298][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming16)
-[2016.05.29-23.12.47:720][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming14)
-[2016.05.29-23.12.56:694][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.12.57:526][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming14)
-[2016.05.29-23.13.05:975][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.13.08:739][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.13.09:328][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming14)
-[2016.05.29-23.13.34:494][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.13.40:955][258]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2016.05.29-23.13.45:558][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.13.49:440][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.13.55:624][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming18)
-[2016.05.29-23.14.00:472][708]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2016.05.29-23.14.07:895][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming4)
-[2016.05.29-23.14.09:171][204]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming6)
-[2016.05.29-23.14.10:364][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming4)
-[2016.05.29-23.14.11:501][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming7)
-[2016.05.29-23.14.14:508][459]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming6)
-[2016.05.29-23.14.15:245][497]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming4)
-[2016.05.29-23.14.19:082][709]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming7)
-[2016.05.29-23.14.19:824][747]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming6)
-[2016.05.29-23.14.21:789][853]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming7)
-[2016.05.29-23.14.26:311][102]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (HouseTrimming5)
-[2016.05.29-23.14.29:338][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseTrimming4)
-[2016.05.29-23.14.35:354][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Home" FILE="../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.05.29-23.14.38:239][367]LogSavePackage: Save=2825.479248ms
-[2016.05.29-23.14.38:239][367]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Saved/HomeE2583AAD49D505EA8ADB218D68FC24AB.tmp' to '../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap'
-[2016.05.29-23.14.38:247][367]LogSavePackage: Total save time: 2850.260258ms
-[2016.05.29-23.14.38:247][367]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/Unreal Projects/Relapse 4.9/Content/Home.umap
-[2016.05.29-23.14.38:426][367]LogFileHelpers: Saving map 'Home' took 6.874
-[2016.05.29-23.21.51:383][427]Cmd: QUIT_EDITOR
-[2016.05.29-23.21.51:693][427]LogExit: Preparing to exit.
-[2016.05.29-23.21.52:094][427]LogExit: Editor shut down
-[2016.05.29-23.21.52:095][427]LogExit: Transaction tracking system shut down
-[2016.05.29-23.21.52:097][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000124C16C0
-[2016.05.29-23.21.52:104][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003845B920
-[2016.05.29-23.21.52:104][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000387AF6A0
-[2016.05.29-23.21.52:104][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038F847C0
-[2016.05.29-23.21.52:104][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E66A980
-[2016.05.29-23.21.52:287][427]LogExit: Object subsystem successfully closed.
-[2016.05.29-23.21.52:311][427]LogD3D11RHI: Shutdown
-[2016.05.29-23.21.52:311][427]LogD3D11RHI: CleanupD3DDevice
-[2016.05.29-23.21.52:398][427]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.05.29-23.21.52:458][427]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
-[2016.05.29-23.21.52:458][427]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (198)
-[2016.05.29-23.21.52:458][427]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
-[2016.05.29-23.21.52:458][427]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
-[2016.05.29-23.21.52:458][427]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
-[2016.05.29-23.21.52:458][427]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
-[2016.05.29-23.21.52:458][427]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module BspMode (184)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
-[2016.05.29-23.21.52:459][427]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
-[2016.05.29-23.21.52:460][427]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
-[2016.05.29-23.21.52:460][427]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
-[2016.05.29-23.21.52:460][427]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
-[2016.05.29-23.21.52:460][427]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
-[2016.05.29-23.21.52:460][427]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
-[2016.05.29-23.21.52:460][427]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module MergeActors (168)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module SizeMap (167)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module TreeMap (166)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module XmlParser (157)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module Blutility (156)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
-[2016.05.29-23.21.53:092][427]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module AutomationController (145)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module Layers (143)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module Persona (139)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module Kismet (138)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
-[2016.05.29-23.21.53:093][427]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module Toolbox (135)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module OutputLog (132)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module GammaUI (131)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module Documentation (130)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module Analytics (126)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module AIModule (123)
-[2016.05.29-23.21.53:095][427]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
-[2016.05.29-23.21.53:282][427]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
-[2016.05.29-23.21.53:282][427]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
-[2016.05.29-23.21.53:282][427]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
-[2016.05.29-23.21.53:282][427]LogModuleManager: Shutting down and abandoning module SteamVR (118)
-[2016.05.29-23.21.53:282][427]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
-[2016.05.29-23.21.53:282][427]LogModuleManager: Shutting down and abandoning module OculusRift (116)
-[2016.05.29-23.21.53:282][427]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
-[2016.05.29-23.21.53:282][427]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module CableComponent (112)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2016.05.29-23.21.53:461][427]LogModuleManager: Shutting down and abandoning module MainFrame (91)
-[2016.05.29-23.21.53:462][427]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
-[2016.05.29-23.21.53:462][427]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2016.05.29-23.21.53:463][427]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
-[2016.05.29-23.21.53:577][427]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
-[2016.05.29-23.21.53:578][427]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
-[2016.05.29-23.21.53:578][427]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2016.05.29-23.21.53:678][427]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2016.05.29-23.21.53:678][427]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2016.05.29-23.21.53:678][427]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2016.05.29-23.21.53:681][427]LogModuleManager: Shutting down and abandoning module Media (81)
-[2016.05.29-23.21.53:681][427]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2016.05.29-23.21.53:682][427]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module Core (59)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2016.05.29-23.21.53:685][427]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2016.05.29-23.21.53:704][427]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2016.05.29-23.21.53:739][427]LogDerivedDataCache: Shutdown
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2016.05.29-23.21.53:739][427]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.05.29-23.21.53:740][427]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2016.05.29-23.21.55:740][427]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2016.05.29-23.21.55:740][427]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.05.29-23.21.55:740][427]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.05.29-23.21.55:740][427]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.05.29-23.21.55:740][427]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.05.29-23.21.55:740][427]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.05.29-23.21.55:742][427]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.05.29-23.21.55:743][427]LogExit: Exiting.
-[2016.05.29-23.21.55:758][427]Log file closed, 05/29/16 19:21:55
+﻿Log file open, 08/30/16 19:50:23
+LogInit:Display: Running engine for game: Relapse
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(481369951) SRandInit(481369952).
+LogTaskGraph: Started task graph with 4 named threads and 9 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092046
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.30-23.50.23:671][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.30-23.50.23:671][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.30-23.50.23:708][  0]LogInit: Computer: G005B-STATION09
+[2016.08.30-23.50.23:708][  0]LogInit: User: SC0096
+[2016.08.30-23.50.23:708][  0]LogInit: CPU Page size=65536, Cores=6
+[2016.08.30-23.50.23:708][  0]LogInit: High frequency timer resolution =3.312644 MHz
+[2016.08.30-23.50.23:708][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.30-23.50.23:708][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.30-23.50.23:708][  0]LogMemory: Process Physical Memory: 191.09 MB used, 191.09 MB peak
+[2016.08.30-23.50.23:708][  0]LogMemory: Process Virtual Memory: 195.57 MB used, 195.57 MB peak
+[2016.08.30-23.50.23:708][  0]LogMemory: Physical Memory: 4581.80 MB used, 8082.00 MB total
+[2016.08.30-23.50.23:708][  0]LogMemory: Virtual Memory: 554.27 MB used, 134217728.00 MB total
+[2016.08.30-23.50.23:733][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.30-23.50.24:058][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.30-23.50.24:084][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.08.30-23.50.24:084][  0]LogD3D11RHI:       2016/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.08.30-23.50.24:086][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.30-23.50.24:086][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.30-23.50.24:086][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.30-23.50.24:089][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.30-23.50.24:089][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.30-23.50.24:089][  0]LogWindows: EnumDisplayDevices:
+[2016.08.30-23.50.24:090][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2016.08.30-23.50.24:090][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2016.08.30-23.50.24:090][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.08.30-23.50.24:090][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.08.30-23.50.24:090][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.08.30-23.50.24:090][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.08.30-23.50.24:090][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.08.30-23.50.24:090][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.08.30-23.50.24:090][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.30-23.50.24:101][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.30-23.50.24:110][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.08.30-23.50.24:111][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (H:/.Relapse/Intermediate/Shaders/WorkingDirectory/7968/).
+[2016.08.30-23.50.24:111][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SC0096/AppData/Local/Temp/UnrealShaderWorkingDir/08E0AEE542EF744B01AAF59C28C8C936/'.
+[2016.08.30-23.50.24:111][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.30-23.50.24:900][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.30-23.50.24:911][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.30-23.50.24:937][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.30-23.50.24:948][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.30-23.50.24:956][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.30-23.50.24:967][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.30-23.50.24:976][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.30-23.50.24:985][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.30-23.50.24:995][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.30-23.50.25:004][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.30-23.50.25:012][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.30-23.50.25:030][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.30-23.50.25:030][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.30-23.50.25:031][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.30-23.50.25:053][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.30-23.50.25:061][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.30-23.50.25:069][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.30-23.50.25:078][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.30-23.50.25:087][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.30-23.50.25:087][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.30-23.50.25:152][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.30-23.50.25:201][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.30-23.50.25:202][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.30-23.50.25:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/.Relapse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.30-23.50.25:203][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.30-23.50.25:204][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/.Relapse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.30-23.50.25:204][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.30-23.50.25:217][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.30-23.50.25:229][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SC0096/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.30-23.50.25:377][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.30-23.50.25:378][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.30-23.50.25:528][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.30-23.50.25:528][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.30-23.50.25:528][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.30-23.50.25:737][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2016.08.30-23.50.25:827][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.086467 seconds
+[2016.08.30-23.50.25:830][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.30-23.50.25:830][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.08.30-23.50.25:830][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.30-23.50.25:836][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.30-23.50.25:973][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.30-23.50.25:973][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.30-23.50.26:522][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.30-23.50.26:523][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/' because it was aborted or there was a buffer overflow.
+[2016.08.30-23.50.26:868][  0]SourceControl: Info Source control is disabled
+[2016.08.30-23.50.26:896][  0]SourceControl: Info Source control is disabled
+[2016.08.30-23.50.26:904][  0]SourceControl: Info Source control is disabled
+[2016.08.30-23.50.26:912][  0]SourceControl: Info Source control is disabled
+[2016.08.30-23.50.27:054][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/' because it was aborted or there was a buffer overflow.
+[2016.08.30-23.50.27:102][  0]LogEngine: Initializing Engine...
+[2016.08.30-23.50.27:103][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.30-23.50.27:103][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.30-23.50.27:219][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.30-23.50.27:225][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.30-23.50.27:237][  0]LogInit: FAudioDevice initialized.
+[2016.08.30-23.50.27:261][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.30-23.50.27:270][  0]LogInit: Texture streaming: Enabled
+[2016.08.30-23.50.27:291][  0]LogInit: Transaction tracking system initialized
+[2016.08.30-23.50.27:313][  0]BlueprintLog: New page: Editor Load
+[2016.08.30-23.50.27:414][  0]LocalizationService: Info Localization service is disabled
+[2016.08.30-23.50.27:504][  0]LogConsoleResponse:Display: 
+[2016.08.30-23.50.27:604][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.30-23.50.27:604][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.30-23.50.27:692][  0]SourceControl: Info Source control is disabled
+[2016.08.30-23.50.27:692][  0]Cmd: MAP LOAD FILE="H:/.Relapse/Content/Home.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.30-23.50.27:692][  0]LightingResults: New page: Lighting Build
+[2016.08.30-23.50.27:695][  0]MapCheck: New page: Map Check
+[2016.08.30-23.50.27:695][  0]LightingResults: New page: Lighting Build
+[2016.08.30-23.50.29:213][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/' took 0.15s
+[2016.08.30-23.50.29:300][  0]LogAIModule: Creating AISystem for world Home
+[2016.08.30-23.50.29:603][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.30-23.50.29:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.30-23.50.29:647][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.754ms to complete.
+[2016.08.30-23.50.29:647][  0]LogFileHelpers: Loading map 'Home' took 1.955
+[2016.08.30-23.50.30:123][  0]LogCollectionManager: Loaded 0 collections in 0.003509 seconds
+[2016.08.30-23.50.30:191][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Saved/Collections/' took 0.02s
+[2016.08.30-23.50.30:191][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/Developers/SC0096/Collections/' took 0.01s
+[2016.08.30-23.50.30:191][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/Collections/' took 0.01s
+[2016.08.30-23.50.30:191][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.08.30-23.50.30:200][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2047 classes and 369 folders.
+[2016.08.30-23.50.30:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.30-23.50.30:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.30-23.50.30:206][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2016.08.30-23.50.30:211][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.08.30-23.50.30:264][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.08.30-23.50.30:268][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.08.30-23.50.30:282][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.30-23.50.30:314][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.30-23.50.30:351][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.08.30-23.50.30:351][  0]LogLoad: Full Startup: 7.71 seconds (BP compile: 0.03 seconds)
+[2016.08.30-23.50.30:351][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.08.30-23.50.30:361][  0]LogOcInput: OculusInput pre-init called
+[2016.08.30-23.50.30:378][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.30-23.50.30:521][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.08.30-23.50.30:588][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.08.30-23.50.31:359][  2]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Saved/Collections/' because it was aborted or there was a buffer overflow.
+[2016.08.30-23.50.31:359][  2]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/Developers/SC0096/Collections/' because it was aborted or there was a buffer overflow.
+[2016.08.30-23.50.31:359][  2]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/Collections/' because it was aborted or there was a b
