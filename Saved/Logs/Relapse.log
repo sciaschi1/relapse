@@ -1,9 +1,9 @@
-﻿Log file open, 08/30/16 19:50:23
+﻿Log file open, 08/30/16 20:02:09
 LogInit:Display: Running engine for game: Relapse
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(481369951) SRandInit(481369952).
+LogInit:Display: RandInit(-1474960272) SRandInit(-1474960271).
 LogTaskGraph: Started task graph with 4 named threads and 9 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.092046
+LogStats: Stats thread started at 0.092786
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -44,137 +44,137 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.08.30-23.50.23:671][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.30-23.50.23:671][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.08.30-23.50.23:708][  0]LogInit: Computer: G005B-STATION09
-[2016.08.30-23.50.23:708][  0]LogInit: User: SC0096
-[2016.08.30-23.50.23:708][  0]LogInit: CPU Page size=65536, Cores=6
-[2016.08.30-23.50.23:708][  0]LogInit: High frequency timer resolution =3.312644 MHz
-[2016.08.30-23.50.23:708][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.08.30-23.50.23:708][  0]LogMemory: Platform Memory Stats for Windows
-[2016.08.30-23.50.23:708][  0]LogMemory: Process Physical Memory: 191.09 MB used, 191.09 MB peak
-[2016.08.30-23.50.23:708][  0]LogMemory: Process Virtual Memory: 195.57 MB used, 195.57 MB peak
-[2016.08.30-23.50.23:708][  0]LogMemory: Physical Memory: 4581.80 MB used, 8082.00 MB total
-[2016.08.30-23.50.23:708][  0]LogMemory: Virtual Memory: 554.27 MB used, 134217728.00 MB total
-[2016.08.30-23.50.23:733][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.08.30-23.50.24:058][  0]LogD3D11RHI: D3D11 adapters:
-[2016.08.30-23.50.24:084][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2016.08.30-23.50.24:084][  0]LogD3D11RHI:       2016/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2016.08.30-23.50.24:086][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.08.30-23.50.24:086][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.08.30-23.50.24:086][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.08.30-23.50.24:089][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.08.30-23.50.24:089][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2016.08.30-23.50.24:089][  0]LogWindows: EnumDisplayDevices:
-[2016.08.30-23.50.24:090][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2016.08.30-23.50.24:090][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
-[2016.08.30-23.50.24:090][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2016.08.30-23.50.24:090][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2016.08.30-23.50.24:090][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2016.08.30-23.50.24:090][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2016.08.30-23.50.24:090][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
-[2016.08.30-23.50.24:090][  0]LogD3D11RHI:      Driver Date: 8-11-2016
-[2016.08.30-23.50.24:090][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.08.30-23.50.24:101][  0]LogD3D11RHI: Async texture creation enabled
-[2016.08.30-23.50.24:110][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.08.30-23.50.24:111][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (H:/.Relapse/Intermediate/Shaders/WorkingDirectory/7968/).
-[2016.08.30-23.50.24:111][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SC0096/AppData/Local/Temp/UnrealShaderWorkingDir/08E0AEE542EF744B01AAF59C28C8C936/'.
-[2016.08.30-23.50.24:111][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.08.30-23.50.24:900][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.08.30-23.50.24:911][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.08.30-23.50.24:937][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.08.30-23.50.24:948][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.08.30-23.50.24:956][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.08.30-23.50.24:967][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.08.30-23.50.24:976][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.08.30-23.50.24:985][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.08.30-23.50.24:995][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.08.30-23.50.25:004][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.08.30-23.50.25:012][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.08.30-23.50.25:030][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.08.30-23.50.25:030][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.08.30-23.50.25:031][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.08.30-23.50.25:053][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.08.30-23.50.25:061][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.08.30-23.50.25:069][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.08.30-23.50.25:078][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.08.30-23.50.25:087][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.08.30-23.50.25:087][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.08.30-23.50.25:152][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.08.30-23.50.25:201][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.08.30-23.50.25:202][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.08.30-23.50.25:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/.Relapse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.08.30-23.50.25:203][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.08.30-23.50.25:204][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/.Relapse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.08.30-23.50.25:204][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.08.30-23.50.25:217][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.08.30-23.50.25:229][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SC0096/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.08.30-23.50.25:377][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.30-23.50.25:378][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.08.30-23.50.25:528][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.08.30-23.50.25:528][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.08.30-23.50.25:528][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.08.30-23.50.25:737][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
-[2016.08.30-23.50.25:827][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.086467 seconds
-[2016.08.30-23.50.25:830][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.08.30-23.50.25:830][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
-[2016.08.30-23.50.25:830][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.08.30-23.50.25:836][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.08.30-23.50.25:973][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.08.30-23.50.25:973][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.08.30-23.50.26:522][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.08.30-23.50.26:523][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/' because it was aborted or there was a buffer overflow.
-[2016.08.30-23.50.26:868][  0]SourceControl: Info Source control is disabled
-[2016.08.30-23.50.26:896][  0]SourceControl: Info Source control is disabled
-[2016.08.30-23.50.26:904][  0]SourceControl: Info Source control is disabled
-[2016.08.30-23.50.26:912][  0]SourceControl: Info Source control is disabled
-[2016.08.30-23.50.27:054][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/' because it was aborted or there was a buffer overflow.
-[2016.08.30-23.50.27:102][  0]LogEngine: Initializing Engine...
-[2016.08.30-23.50.27:103][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.08.30-23.50.27:103][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.08.30-23.50.27:219][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.08.30-23.50.27:225][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.30-23.50.27:237][  0]LogInit: FAudioDevice initialized.
-[2016.08.30-23.50.27:261][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.08.30-23.50.27:270][  0]LogInit: Texture streaming: Enabled
-[2016.08.30-23.50.27:291][  0]LogInit: Transaction tracking system initialized
-[2016.08.30-23.50.27:313][  0]BlueprintLog: New page: Editor Load
-[2016.08.30-23.50.27:414][  0]LocalizationService: Info Localization service is disabled
-[2016.08.30-23.50.27:504][  0]LogConsoleResponse:Display: 
-[2016.08.30-23.50.27:604][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.08.30-23.50.27:604][  0]LogCook:Display: Mobile HDR setting 1
-[2016.08.30-23.50.27:692][  0]SourceControl: Info Source control is disabled
-[2016.08.30-23.50.27:692][  0]Cmd: MAP LOAD FILE="H:/.Relapse/Content/Home.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.08.30-23.50.27:692][  0]LightingResults: New page: Lighting Build
-[2016.08.30-23.50.27:695][  0]MapCheck: New page: Map Check
-[2016.08.30-23.50.27:695][  0]LightingResults: New page: Lighting Build
-[2016.08.30-23.50.29:213][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/' took 0.15s
-[2016.08.30-23.50.29:300][  0]LogAIModule: Creating AISystem for world Home
-[2016.08.30-23.50.29:603][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.08.30-23.50.29:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.08.30-23.50.29:647][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.754ms to complete.
-[2016.08.30-23.50.29:647][  0]LogFileHelpers: Loading map 'Home' took 1.955
-[2016.08.30-23.50.30:123][  0]LogCollectionManager: Loaded 0 collections in 0.003509 seconds
-[2016.08.30-23.50.30:191][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Saved/Collections/' took 0.02s
-[2016.08.30-23.50.30:191][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/Developers/SC0096/Collections/' took 0.01s
-[2016.08.30-23.50.30:191][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/Collections/' took 0.01s
-[2016.08.30-23.50.30:191][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.08.30-23.50.30:200][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2047 classes and 369 folders.
-[2016.08.30-23.50.30:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.08.30-23.50.30:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.08.30-23.50.30:206][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
-[2016.08.30-23.50.30:211][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2016.08.30-23.50.30:264][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2016.08.30-23.50.30:268][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2016.08.30-23.50.30:282][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.08.30-23.50.30:314][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.08.30-23.50.30:351][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2016.08.30-23.50.30:351][  0]LogLoad: Full Startup: 7.71 seconds (BP compile: 0.03 seconds)
-[2016.08.30-23.50.30:351][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2016.08.30-23.50.30:361][  0]LogOcInput: OculusInput pre-init called
-[2016.08.30-23.50.30:378][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.08.30-23.50.30:521][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2016.08.30-23.50.30:588][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2016.08.30-23.50.31:359][  2]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Saved/Collections/' because it was aborted or there was a buffer overflow.
-[2016.08.30-23.50.31:359][  2]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/Developers/SC0096/Collections/' because it was aborted or there was a buffer overflow.
-[2016.08.30-23.50.31:359][  2]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/Collections/' because it was aborted or there was a b
+[2016.08.31-00.02.09:598][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.31-00.02.09:598][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.31-00.02.09:625][  0]LogInit: Computer: G005B-STATION09
+[2016.08.31-00.02.09:625][  0]LogInit: User: SC0096
+[2016.08.31-00.02.09:625][  0]LogInit: CPU Page size=65536, Cores=6
+[2016.08.31-00.02.09:625][  0]LogInit: High frequency timer resolution =3.312644 MHz
+[2016.08.31-00.02.09:625][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.31-00.02.09:625][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.31-00.02.09:625][  0]LogMemory: Process Physical Memory: 190.82 MB used, 190.82 MB peak
+[2016.08.31-00.02.09:625][  0]LogMemory: Process Virtual Memory: 195.62 MB used, 195.62 MB peak
+[2016.08.31-00.02.09:625][  0]LogMemory: Physical Memory: 4351.34 MB used, 8082.00 MB total
+[2016.08.31-00.02.09:625][  0]LogMemory: Virtual Memory: 554.27 MB used, 134217728.00 MB total
+[2016.08.31-00.02.09:649][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.31-00.02.09:954][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.31-00.02.09:977][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.08.31-00.02.09:977][  0]LogD3D11RHI:       2016/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.08.31-00.02.09:979][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.31-00.02.09:979][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.31-00.02.09:979][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.31-00.02.09:983][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.31-00.02.09:983][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.31-00.02.09:983][  0]LogWindows: EnumDisplayDevices:
+[2016.08.31-00.02.09:983][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2016.08.31-00.02.09:983][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2016.08.31-00.02.09:983][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.08.31-00.02.09:983][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.08.31-00.02.09:983][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.08.31-00.02.09:983][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.08.31-00.02.09:983][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.08.31-00.02.09:983][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.08.31-00.02.09:983][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.31-00.02.09:994][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.31-00.02.10:003][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.08.31-00.02.10:003][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (H:/.Relapse/Intermediate/Shaders/WorkingDirectory/6264/).
+[2016.08.31-00.02.10:003][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SC0096/AppData/Local/Temp/UnrealShaderWorkingDir/AB6F14A9487BAE838C2439A7D8330CDE/'.
+[2016.08.31-00.02.10:003][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.31-00.02.10:774][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.31-00.02.10:784][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.31-00.02.10:794][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.31-00.02.10:805][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.31-00.02.10:813][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.31-00.02.10:823][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.31-00.02.10:832][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.31-00.02.10:841][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.31-00.02.10:850][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.31-00.02.10:858][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.31-00.02.10:867][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.31-00.02.10:884][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.31-00.02.10:884][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.31-00.02.10:885][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.31-00.02.10:907][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.31-00.02.10:920][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.31-00.02.10:929][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.31-00.02.10:938][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.31-00.02.10:946][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.31-00.02.10:947][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.31-00.02.11:009][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.31-00.02.11:056][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.31-00.02.11:057][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.31-00.02.11:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/.Relapse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.31-00.02.11:058][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.31-00.02.11:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/.Relapse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.31-00.02.11:058][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.31-00.02.11:072][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.31-00.02.11:083][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SC0096/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.31-00.02.11:226][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.31-00.02.11:227][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.31-00.02.11:377][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.31-00.02.11:377][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.31-00.02.11:377][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.31-00.02.11:589][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2016.08.31-00.02.11:709][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.115048 seconds
+[2016.08.31-00.02.11:713][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.31-00.02.11:713][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.08.31-00.02.11:713][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.31-00.02.11:718][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.31-00.02.11:858][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.31-00.02.11:858][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.31-00.02.12:400][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.31-00.02.12:401][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/' because it was aborted or there was a buffer overflow.
+[2016.08.31-00.02.12:742][  0]SourceControl: Info Source control is disabled
+[2016.08.31-00.02.12:770][  0]SourceControl: Info Source control is disabled
+[2016.08.31-00.02.12:777][  0]SourceControl: Info Source control is disabled
+[2016.08.31-00.02.12:785][  0]SourceControl: Info Source control is disabled
+[2016.08.31-00.02.12:915][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/' because it was aborted or there was a buffer overflow.
+[2016.08.31-00.02.12:960][  0]LogEngine: Initializing Engine...
+[2016.08.31-00.02.12:961][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.31-00.02.12:961][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.31-00.02.13:076][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.31-00.02.13:081][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.31-00.02.13:091][  0]LogInit: FAudioDevice initialized.
+[2016.08.31-00.02.13:114][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/SC0096/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.31-00.02.13:121][  0]LogInit: Texture streaming: Enabled
+[2016.08.31-00.02.13:140][  0]LogInit: Transaction tracking system initialized
+[2016.08.31-00.02.13:160][  0]BlueprintLog: New page: Editor Load
+[2016.08.31-00.02.13:269][  0]LocalizationService: Info Localization service is disabled
+[2016.08.31-00.02.13:325][  0]LogConsoleResponse:Display: 
+[2016.08.31-00.02.13:417][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.31-00.02.13:417][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.31-00.02.13:499][  0]SourceControl: Info Source control is disabled
+[2016.08.31-00.02.13:499][  0]Cmd: MAP LOAD FILE="H:/.Relapse/Content/Home.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.31-00.02.13:499][  0]LightingResults: New page: Lighting Build
+[2016.08.31-00.02.13:502][  0]MapCheck: New page: Map Check
+[2016.08.31-00.02.13:502][  0]LightingResults: New page: Lighting Build
+[2016.08.31-00.02.14:981][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/' took 0.16s
+[2016.08.31-00.02.15:069][  0]LogAIModule: Creating AISystem for world Home
+[2016.08.31-00.02.15:367][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.31-00.02.15:367][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.31-00.02.15:407][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.076ms to complete.
+[2016.08.31-00.02.15:407][  0]LogFileHelpers: Loading map 'Home' took 1.909
+[2016.08.31-00.02.15:871][  0]LogCollectionManager: Loaded 0 collections in 0.007487 seconds
+[2016.08.31-00.02.15:919][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Saved/Collections/' took 0.01s
+[2016.08.31-00.02.15:919][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/Developers/SC0096/Collections/' took 0.01s
+[2016.08.31-00.02.15:919][  0]LogFileCache: Scanning file cache for directory 'H:/.Relapse/Content/Collections/' took 0.01s
+[2016.08.31-00.02.15:919][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.08.31-00.02.15:926][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2047 classes and 369 folders.
+[2016.08.31-00.02.15:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.31-00.02.15:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.31-00.02.15:931][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.08.31-00.02.15:936][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.08.31-00.02.15:983][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.08.31-00.02.15:987][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.31-00.02.16:004][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.31-00.02.16:015][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.31-00.02.16:051][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.31-00.02.16:051][  0]LogLoad: Full Startup: 7.47 seconds (BP compile: 0.02 seconds)
+[2016.08.31-00.02.16:051][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.08.31-00.02.16:060][  0]LogOcInput: OculusInput pre-init called
+[2016.08.31-00.02.16:076][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Saved/Collections/' because it was aborted or there was a buffer overflow.
+[2016.08.31-00.02.16:076][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/Developers/SC0096/Collections/' because it was aborted or there was a buffer overflow.
+[2016.08.31-00.02.16:076][  0]LogDirectoryWatcher: A directory notification failed for 'H:/.Relapse/Content/Collections/' because it was aborted or there was a buffer overflow.
+[2016.08.31-00.02.16:078][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.31-00.02.16:203][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.08.31-00.02.16:286][  1]Cmd: UpdateLandscapeE
